@@ -43,6 +43,7 @@ Most of the packages included in the Deep Learning Libraries installer will work
  -----|---------------------
  GPU Type | NVIDIA with CUDA Compute Capability<sup>&ast;</sup> 3.5 or greater
  Dedicated graphics memory <sup>&dagger;</sup> | minimum: 2GB <br />recommended: 4GB or more, depending on the size of models trained
+ CUDA Toolkit Installed | [CUDA Toolkit 10.1](https://developer.nvidia.com/cuda-10.1-download-archive-base)
 
 &ast; NVIDIA provides a list of [CUDA enabled products](https://developer.nvidia.com/cuda-gpus#compute) and their compute capability.
 
