@@ -13,8 +13,10 @@ For an example of the kinds of workflows this installer and ArcGIS enables, see 
 Download
 --------
 
- **[Deep Learning Libraries Installer for ArcGIS Pro 2.6](#)**
- **[Deep Learning Libraries Installer for ArcGIS Server 10.8.1](#)**
+![GitHub All Releases](https://img.shields.io/github/downloads/esri/deep-learning-frameworks/total?style=for-the-badge)
+
+  - **[Deep Learning Libraries Installer for ArcGIS Pro 2.6](#)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 10.8.1](#)**
  
 Next Steps
 ----------
@@ -158,3 +160,8 @@ Additional Notes
  - This installer is only available for ArcGIS Pro 2.6, and ArcGIS Server 10.8.1 -- for earlier releases, you'll need to follow the documentation on installing the packages through the Python backstage or Python command prompt.
  - If you want these packages for a specific environment only, you can install the `deep-learning-essentials` package which has the same list of dependencies as a standalone conda metapackage.
  - TODO: add the ArcGIS API standalone story here.
+
+Legal
+-----
+
+TODO
