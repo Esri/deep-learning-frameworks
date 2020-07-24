@@ -39,10 +39,9 @@ Requirements
 
 Most of the packages included in the Deep Learning Libraries installer will work out of the box on any machine configuration. For example, PyTorch optionally can take advantage of a GPU, but will fall back to running its calculations on the CPU if a GPU is not available. However, GPU computation is significantly faster, and some packages such as TensorFlow in this distribution only will work with a supported GPU.  CUDA, or Compute Unified Device Architecture, is a general purpose computing platform for GPUs, a requirement for current GPU backed deep learning tools.
 
- Item | Supported and recommended
- -----|--------------------------
- Manufacturer | NVIDIA
- CUDA Compute Capability<sup>&ast;</sup> | 3.5 or greater
+ GPU requirement | Supported
+ -----|---------------------
+ GPU Type | NVIDIA with CUDA Compute Capability<sup>&ast;</sup> 3.5 or greater
  Dedicated graphics memory <sup>&dagger;</sup> | minimum: 2GB <br />recommended: 4GB or more, depending on the size of models trained
 
 &ast; NVIDIA provides a list of [CUDA enabled products](https://developer.nvidia.com/cuda-gpus#compute) and their compute capability.
