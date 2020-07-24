@@ -42,10 +42,10 @@ Most of the packages included in the Deep Learning Libraries installer will work
  Item | Supported and recommended
  -----|--------------------------
  Manufacturer | NVIDIA
- CUDA Compute Capability<sup>&#ast;</sup> | 3.5 or greater
+ CUDA Compute Capability<sup>&ast;</sup> | 3.5 or greater
  Dedicated graphics memory <sup>&dagger;</sup> | minimum: 2GB <br />recommended: 4GB or more, depending on the size of models trained
 
-&#ast; NVIDIA provides a list of [CUDA enabled products](https://developer.nvidia.com/cuda-gpus#compute) and their compute capability.
+&ast; NVIDIA provides a list of [CUDA enabled products](https://developer.nvidia.com/cuda-gpus#compute) and their compute capability.
 
 &dagger; GPU memory, unlike system memory, cannot be accessed 'virtually'. If a model training consumes more GPU memory than you have available, it will fail. GPU memory is also shared across all uses of the machine, so open Pro projects with maps and other applications can limit the available memory for use with these tools.
 
