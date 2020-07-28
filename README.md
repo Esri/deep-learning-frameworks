@@ -21,12 +21,10 @@ Download
 Next Steps
 ----------
 
-_THIS SECTION NEEDS REVISION_ 
-
 Once you've installed the deep learning libraries, you can use the Deep Learning Tools [link] to train geospatial deep learning models. You can also find out more about the capabilities of the [arcgis.learn module](https://developers.arcgis.com/python/guide/geospatial-deep-learning/) which provides specialized access to many geospatial models beyond those directly available as Geoprocessing tools. Finally, you can add any of the above libraries to your own workflows, by importing the packages listed below.
 
  - Learn ArcGIS lesson on using [Deep Learning to Access Palm Tree Health](https://learn.arcgis.com/en/projects/use-deep-learning-to-assess-palm-tree-health/)
- - TODO: Other good starting resources? the below is heavy on UC 2020 which not everyone will have access to... do we have GeoNet and blog posts on this?
+ - Join us in October 2020 for the [Spatial Data Science MOOC](https://www.esri.com/training/catalog/5d76dcf7e9ccda09bef61294/spatial-data-science:-the-new-frontier-in-analytics/#!)
 
 A collection of recent User Conference 2020 Technical Workshops on Deep Learning:
 
@@ -158,9 +156,3 @@ Additional Notes
  - This installer adds packages to the default `arcgispro-py3` environment. Any subsequent clones of that environment will also include this full collection of packages. This collection of packages is validated and tested against the version of Pro is installed alongside, and upgrades of Pro will also require reinstallation of the deep learning libraries. Note that when you upgrade the software to a new release, you'll need to uninstall the Deep Learning Libraries installation as well as Pro or Server, and reinstall the new version of this package for that release.
  - This installer is only available for ArcGIS Pro 2.6, and ArcGIS Server 10.8.1 -- for earlier releases, you'll need to follow the documentation on installing the packages through the Python backstage or Python command prompt.
  - If you want these packages for a specific environment only, you can install the `deep-learning-essentials` package which has the same list of dependencies as a standalone conda metapackage.
- - TODO: add the ArcGIS API standalone story here.
-
-Legal
------
-
-TODO
