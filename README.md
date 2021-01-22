@@ -24,9 +24,8 @@ Manual Installation
 --------
 
 If you cannot use the Pro installer, you can install the libraries manually using these instructions:
-  - [Pro 2.6 Manual Installation](install-deep-learning-frameworks-manually-2-6.pdf)  
-  - [Pro 2.7 Manual Installation](install-deep-learning-frameworks-manually-2-7.pdf)
-
+  - **[Pro 2.7 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-7.pdf)**
+  - **[Pro 2.6 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-6.pdf)**  
 
 Next Steps
 ----------
