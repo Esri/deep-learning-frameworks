@@ -30,7 +30,7 @@ If you cannot use the Pro installer, you can install the libraries manually usin
   - **[Pro 2.7 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-7.pdf)**
   - **[Pro 2.6 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-6.pdf)**  
 
-Installation for Disconnected Environment
+Additional Installation for Disconnected Environment
 --------
 
 If you will be working in a disconnected environment, download the [arcgis_dl_backbones package](https://geosaurus.maps.arcgis.com/home/item.html?id=d404fd50d05d475f8d92eedb78e1c961) and follow the instructions under the **Steps to Install** listed on the package page. The package places backbones for deep learning models in the specified install location, eliminating the need for internet access when training deep learning models in ArcGIS.
