@@ -20,7 +20,7 @@ Download
   - **[Deep Learning Libraries Installer for ArcGIS Server 10.8.1](https://github.com/Esri/deep-learning-frameworks/releases/download/server-10.8.1/ArcGIS_Server_1081_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 10.8.1](https://github.com/Esri/deep-learning-frameworks/releases/download/linux-server-10.8.1/ArcGIS_Linux_Server_1081_Deep_Learning_Libraries.tar.gz)**
   
-Once you've downloaded the archive for your product, extract the Zip file to a new location, and run the Windows Installer (MSI, e.g. `ProDeepLearning.msi`) on Windows. You'll need to extract the file (not just open the .MSI from within the Zip file) or the installer won't be able to find its contents. On Linux, extrac the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. After installation, the archive and installer files can be deleted.
+Once you've downloaded the archive for your product, extract the Zip file to a new location, and run the Windows Installer (MSI, e.g. `ProDeepLearning.msi`) on Windows. Note that this will install the deep learning frameworks into your currently active Pro Python environment, so be sure to switch to the environment you wish to install into before running the MSI using `proswap`. You'll need to extract the file (not just open the .MSI from within the Zip file) or the installer won't be able to find its contents. On Linux, extrac the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. After installation, the archive and installer files can be deleted.
 
 
 Manual Installation
