@@ -31,10 +31,10 @@ If you cannot use the Pro installer, you can install the libraries manually usin
   - **[Pro 2.7 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-7.pdf)**
   - **[Pro 2.6 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-6.pdf)**  
 
-Developer install steps:
-- You can run `conda install deep-learning-essentials` to install the latest developer package set for any released version of Pro. 
+**Developer install steps:**
+- Clone `arcgispro-py3` and activate your clone before installing (see the manual installation instructions for cloning steps)
+- From the `Python Command Prompt` run `conda install deep-learning-essentials` to install the latest developer package set for any released version of Pro. 
   - *Note: this will install an experimental package set that has not been verified with Pro yet*
-- Always clone `arcgispro-py3` first and activate it before installing (see the manual installation instructions for cloning steps)
 
 Additional Installation for Disconnected Environment
 --------
