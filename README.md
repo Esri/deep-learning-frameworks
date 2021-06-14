@@ -14,7 +14,8 @@ Download
 --------
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/esri/deep-learning-frameworks/total?style=for-the-badge)
-
+  - **[Deep Learning Libraries installer for ArcGIS Server 10.9](https://github.com/Esri/deep-learning-frameworks/releases/download/server-10.9/ArcGIS_Server_109_Deep_Learning_Libraries.zip)**
+  - **[Deep Learning Libraries installer for ArcGIS Linux Server 10.9](https://github.com/Esri/deep-learning-frameworks/releases/download/linux-server-10.9/ArcGIS_Linux_Server_109_Deep_Learning_Libraries.tar.gz)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.7](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.7/ArcGIS_Pro_27_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.6](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.6/ArcGIS_Pro_26_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 10.8.1](https://github.com/Esri/deep-learning-frameworks/releases/download/server-10.8.1/ArcGIS_Server_1081_Deep_Learning_Libraries.zip)**
@@ -29,6 +30,11 @@ Manual Installation
 If you cannot use the Pro installer, you can install the libraries manually using these instructions:
   - **[Pro 2.7 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-7.pdf)**
   - **[Pro 2.6 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-6.pdf)**  
+
+Developer install steps:
+- You can run `conda install deep-learning-essentials` to install the latest developer package set for any released version of Pro. 
+  - *Note: this will install an experimental package set that has not been verified with Pro yet*
+- Always clone `arcgispro-py3` first and activate it before installing (see the manual installation instructions for cloning steps)
 
 Additional Installation for Disconnected Environment
 --------
