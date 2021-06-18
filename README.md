@@ -1,7 +1,7 @@
 # Deep Learning Libraries Installers for ArcGIS
 
 <div align="center">
-  <img src="images/included-frameworks.png" />
+  <img src="include/included-frameworks.png" />
 </div>
 
 ArcGIS Pro, Server and the ArcGIS API for Python all include tools to use AI and Deep Learning to solve geospatial problems, such as feature extraction, pixel classification, and feature categorization.  This installer includes a broad collection of components, such as PyTorch, TensorFlow, Fast.ai and scikit-learn, for performing deep learning and machine learning tasks, a total collection of 99 packages. These packages can be used with the [Deep Learning Training tools](https://pro.arcgis.com/en/pro-app/latest/help/analysis/image-analyst/deep-learning-in-arcgis-pro.htm), [interactive object detection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/exploratory-analysis/interactive-object-detection-basics.htm), by using the [`arcgis.learn`](https://developers.arcgis.com/python/guide/geospatial-deep-learning/) module within the ArcGIS API for Python, and directly imported into your own scripts and tools. Most of the tools in this collection will work on any machine, but common deep learning workflows require a recent NVIDIA graphics processing unit (GPU), and problem sizes are bound by available GPU memory, see [the requirements section](#requirements).
@@ -29,8 +29,9 @@ Manual Installation
 --------
 
 If you cannot use the Pro installer, you can install the libraries manually using these instructions:
-  - **[Pro 2.7 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-7.pdf)**
-  - **[Pro 2.6 Manual Installation Instructions](install-deep-learning-frameworks-manually-2-6.pdf)**  
+  - **[Pro 2.8 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-8.pdf)**
+  - **[Pro 2.7 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-7.pdf)**
+  - **[Pro 2.6 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-6.pdf)**  
 
 **Developer install steps:**
 - Clone `arcgispro-py3` and activate your clone before installing (see the manual installation instructions for cloning steps)
