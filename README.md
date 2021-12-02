@@ -64,7 +64,7 @@ Developer install steps
 5. Type the following command to swap your product's default enviornment to your new cloned environment:
     > `proswap your-clone-name`
     - When you next launch your product it will launch with `your-clone-name` as the active Python Environment and you should now be able to use deep learning tools
-6. If you run into any issues please contact Esri Technical Support (LINK OR DIFFERENT WORDING HERE)
+6. If you run into any issues please contact [Esri Technical Support](https://support.esri.com/en/contact-tech-support)
 
 Additional Installation for Disconnected Environment
 --------
