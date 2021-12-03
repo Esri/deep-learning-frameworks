@@ -31,7 +31,7 @@ Once you've downloaded the archive for your product, extract the Zip file to a n
 
 **Manual Installation:**
 <details>
-  <summary>You can install the libraries manually using these archived instructions</summary>
+  <summary>You can install the libraries manually using these archived instructions:</summary>
   
   - **[Pro 2.8 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-8.pdf)**
   - **[Pro 2.7 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-7.pdf)**
@@ -46,6 +46,9 @@ Developer install steps
 :---:|:---
 :information_source: | Make sure to clone the default Python environment to backup your install (see below)
 
+<details>
+  <summary>You can install the deep learning libraries from a command prompt using these steps:</summary>
+  
 1. Open the `Python Command Prompt` window.
     - You can search for this command prompt in the `Start` menu on Windows, or you can launch it from the product's install folder.
     - If running an enterprise product search for the `Python Command Prompt 3`
@@ -65,6 +68,8 @@ Developer install steps
     > `proswap your-clone-name`
     - When you next launch your product it will launch with `your-clone-name` as the active Python Environment and you should now be able to use deep learning tools
 6. If you run into any issues please contact [Esri Technical Support](https://support.esri.com/en/contact-tech-support)
+</details>
+
 
 Additional Installation for Disconnected Environment
 --------
