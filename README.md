@@ -29,18 +29,47 @@ Download
   
 Once you've downloaded the archive for your product, extract the Zip file to a new location, and run the Windows Installer (MSI, e.g. `ProDeepLearning.msi`) on Windows. Note that this will install the deep learning frameworks into your currently active Pro Python environment; if you wish to install in an environment aside from the default `arcgispro-py3` environment, switch to that environment before running the MSI using either ArcGIS Pro's Python manager UI or on the command line with `proswap`. You'll need to extract the file (not just open the .MSI from within the Zip file) or the installer won't be able to find its contents. On Linux, extrac the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. After installation, the archive and installer files can be deleted.
 
-Manual Installation
---------
-
-If you cannot use the Pro installer, you can install the libraries manually using these instructions:
+**Manual Installation:**
+<details>
+  <summary>You can install the libraries manually using these archived instructions:</summary>
+  
   - **[Pro 2.8 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-8.pdf)**
   - **[Pro 2.7 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-7.pdf)**
-  - **[Pro 2.6 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-6.pdf)**  
+  - **[Pro 2.6 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-6.pdf)**
+</details>
 
-**Developer install steps:**
-- Clone `arcgispro-py3` and activate your clone before installing (see the manual installation instructions for cloning steps)
-- From the `Python Command Prompt` run `conda install deep-learning-essentials` to install the latest developer package set for any released version of Pro. 
-  - *Note: this will install an experimental package set that has not been verified with Pro yet*
+Developer install steps
+--------
+
+
+:warning: | Following these steps will install an experimental unverified package set
+:---:|:---
+:information_source: | Make sure to clone the default Python environment to backup your install (see below)
+
+<details>
+  <summary>You can install the deep learning libraries from a command prompt using these steps:</summary>
+  
+1. Open the `Python Command Prompt` window.
+    - You can search for this command prompt in the `Start` menu on Windows, or you can launch it from the product's install folder.
+    - If running an enterprise product search for the `Python Command Prompt 3`
+2. Clone the default Python environment with this command: (don't forget the `--pinned`!)
+    > `conda create --name your-clone-name --clone arcgispro-py3 --pinned
+3. When the Python environment has been cloned, activate the cloned environment and change directories (this is done to avoid executions inside the default enviornments directory):
+    > `activate your-clone-name`
+      
+    > `cd ..`
+    - When the cloned enviornment is activated, the new environment name appears at the beginning of the path:
+    > `(your-clone-name) C:\Program Files\ArcGIS\Pro\bin\Python\envs>`
+4. Install the deep learning essentials meta-package into your cloned environment with:
+    > `conda install deep-learning-essentials`
+    - When prompted to proceed, review the information, type `y`, and press `Enter`
+    - If the packages install successfully your cloned enviornment is now setup to run deep learning workflows
+5. Type the following command to swap your product's default enviornment to your new cloned environment:
+    > `proswap your-clone-name`
+    - When you next launch your product it will launch with `your-clone-name` as the active Python Environment and you should now be able to use deep learning tools
+6. If you run into any issues please contact [Esri Technical Support](https://support.esri.com/en/contact-tech-support)
+</details>
+
 
 Additional Installation for Disconnected Environment
 --------
