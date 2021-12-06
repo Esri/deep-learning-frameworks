@@ -99,6 +99,7 @@ Most of the packages included in the Deep Learning Libraries installer will work
  GPU requirement | Supported
  -----|---------------------
  GPU Type | NVIDIA with CUDA Compute Capability<sup>&ast;</sup> 3.5 minimum, 6.1 or higher recommended
+GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; version 456.18 or higher is required.
  Dedicated graphics memory <sup>&dagger;</sup> | minimum: 2GB <br />recommended: 8GB, depending on the deep learning model architecture and the batch size being used
 
 &ast; NVIDIA provides a list of [CUDA enabled products](https://developer.nvidia.com/cuda-gpus#compute) and their compute capability.
