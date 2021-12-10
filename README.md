@@ -70,7 +70,7 @@ Developer install steps
 
 <details>
   <summary>You can install the deep learning libraries from a command prompt using these steps:</summary>
-  
+
 1. Open the `Python Command Prompt` window.
     - You can search for this command prompt in the `Start` menu on Windows, or you can launch it from the product's install folder.
     - If running an enterprise product search for the `Python Command Prompt 3`
@@ -78,7 +78,7 @@ Developer install steps
     > `conda create --name your-clone-name --clone arcgispro-py3 --pinned
 3. When the Python environment has been cloned, activate the cloned environment and change directories (this is done to avoid executions inside the default enviornments directory):
     > `activate your-clone-name`
-      
+
     > `cd ..`
     - When the cloned enviornment is activated, the new environment name appears at the beginning of the path:
     > `(your-clone-name) C:\Program Files\ArcGIS\Pro\bin\Python\envs>`
@@ -326,8 +326,7 @@ imageio | 2.8.0 | A Python library for reading and writing image data
 joblib | 1.0.1 | Lightweight pipelining: using Python functions as pipeline jobs.
 keepalive | 0.5 | An HTTP handler for urllib that supports HTTP 1.1 and keepalive
 keras-applications | 1.0.8 | Applications module of the Keras deep learning library.
-keras-base | 2.3.1 | 
-keras-gpu | 2.3.1 | Deep Learning Library for Theano and TensorFlow
+/eras-gpu | 2.3.1 | Deep Learning Library for Theano and TensorFlow
 keras-preprocessing | 1.1.2 | Data preprocessing and data augmentation module of the Keras deep learning library
 laspy | 1.7.0 | A Python library for reading, modifying and creating LAS files
 libboost | 1.73.0 | Free peer-reviewed portable C++ source libraries
