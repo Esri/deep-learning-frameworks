@@ -6,7 +6,7 @@
 
 ArcGIS Pro, Server and the ArcGIS API for Python all include tools to use AI and Deep Learning to solve geospatial problems, such as feature extraction, pixel classification, and feature categorization.  This installer includes a broad collection of components, such as PyTorch, TensorFlow, Fast.ai and scikit-learn, for performing deep learning and machine learning tasks, a total collection of 99 packages. These packages can be used with the [Deep Learning Training tools](https://pro.arcgis.com/en/pro-app/latest/help/analysis/image-analyst/deep-learning-in-arcgis-pro.htm), [interactive object detection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/exploratory-analysis/interactive-object-detection-basics.htm), by using the [`arcgis.learn`](https://developers.arcgis.com/python/guide/geospatial-deep-learning/) module within the ArcGIS API for Python, and directly imported into your own scripts and tools. Most of the tools in this collection will work on any machine, but common deep learning workflows require a recent NVIDIA graphics processing unit (GPU), and problem sizes are bound by available GPU memory, see [the requirements section](#requirements).
 
-This installer adds all the included packages to the default [`arcgispro-py3` environment](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/installing-python-for-arcgis-pro.htm) that Pro and Server both ship with, and no additional environments are necessary in order to get started using the tools. If you do create custom environments, these packages will also be included so you can use the same tools in your own custom environments as well. 
+This installer adds all the included packages to the default [`arcgispro-py3` environment](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/installing-python-for-arcgis-pro.htm) that Pro and Server both ship with, and no additional environments are necessary in order to get started using the tools. If you do create custom environments, these packages will also be included so you can use the same tools in your own custom environments as well.
 
 For an example of the kinds of workflows this installer and ArcGIS enables, see the [AI & Deep Learning in the UC 2020 Plenary video](https://www.youtube.com/watch?v=eI5Sv_FsPgk&feature=youtu.be&list=PLaPDDLTCmy4YwK56yHaEdtRgNUoPBiZTz)
 
@@ -15,25 +15,47 @@ Download
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/esri/deep-learning-frameworks/total?style=for-the-badge)
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.9](https://links.esri.com/pro-deep-learning-libraries/29)**
-  - **[Deep Learning Libraries Installer for ArcGIS Server 10.9](https://github.com/Esri/deep-learning-frameworks/releases/download/server-10.9/ArcGIS_Server_109_Deep_Learning_Libraries.zip)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 10.9.1](https://links.esri.com/server-win-deep-learning-libraries/1091)
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 10.9](https://github.com/Esri/deep-learning-frameworks/releases/download/linux-server-10.9/ArcGIS_Linux_Server_109_Deep_Learning_Libraries.tar.gz)**
 
 <details>
   <summary><b>Downloads for Previous Releases</b></summary>
-  
+
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.8](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.8/ArcGIS_Pro_28_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.7](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.7/ArcGIS_Pro_27_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.6](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.6/ArcGIS_Pro_26_Deep_Learning_Libraries.zip)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 10.9](https://github.com/Esri/deep-learning-frameworks/releases/download/server-10.9/ArcGIS_Server_109_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 10.8.1](https://github.com/Esri/deep-learning-frameworks/releases/download/server-10.8.1/ArcGIS_Server_1081_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 10.8.1](https://github.com/Esri/deep-learning-frameworks/releases/download/linux-server-10.8.1/ArcGIS_Linux_Server_1081_Deep_Learning_Libraries.tar.gz)**
 </details>
-  
-Once you've downloaded the archive for your product, extract the Zip file to a new location, and run the Windows Installer (MSI, e.g. `ProDeepLearning.msi`) on Windows. Note that this will install the deep learning frameworks into your currently active Pro Python environment; if you wish to install in an environment aside from the default `arcgispro-py3` environment, switch to that environment before running the MSI using either ArcGIS Pro's Python manager UI or on the command line with `proswap`. You'll need to extract the file (not just open the .MSI from within the Zip file) or the installer won't be able to find its contents. On Linux, extrac the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. After installation, the archive and installer files can be deleted.
+
+Installation
+------------
+
+**On Windows**
+
+Once you've downloaded the archive for your product, extract the Zip file to a new location, and run the Windows Installer (e.g. `ProDeepLearning.msi`) on Windows. This will install the deep learning frameworks into the default `arcgispro-py3` Python environment, but not any custom environments you've created prior to running this installation. After installation, subsequent clones will also include the full deep learning package set. You'll need to extract the file (not just open the .MSI from within the Zip file) or the installer won't be able to find its contents.  After installation, the archive and installer files can be deleted.
+
+**On Server Linux**
+
+Extract the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. For Server 10.9 and earlier, this would create a package set inside of the Server runtime environment. Starting at Server 10.9.1, this installation creates a new `deep-learning` environment, and the deep learning package set is native Linux.
+
+**Upgrading From a Previous Version**
+
+If you're upgrading from a previous release, the safest way to upgrade is to uninstall and reinstall both the product and the deep learning installer. For example, to upgrade from Pro 2.8 to Pro 2.9:
+
+1. Uninstall Deep Learning Libraries for ArcGIS Pro 2.8
+2. Uninstall ArcGIS Pro 2.8
+3. Directly remove any files still present in `C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3` or equivalent location for your installation. These may have been left over from previously modified environment.
+5. Install ArcGIS Pro 2.9
+6. Install ArcGIS Pro 2.9 Deep Learning downloaded from this site.
+
+After these steps, you should have a clean Pro installation with the Deep Learning package set included in the default `arcgispro-py3` environment.
 
 **Manual Installation:**
 <details>
   <summary>You can install the libraries manually using these archived instructions:</summary>
-  
+
   - **[Pro 2.8 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-8.pdf)**
   - **[Pro 2.7 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-7.pdf)**
   - **[Pro 2.6 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-6.pdf)**
@@ -49,7 +71,7 @@ Developer install steps
 
 <details>
   <summary>You can install the deep learning libraries from a command prompt using these steps:</summary>
-  
+
 1. Open the `Python Command Prompt` window.
     - You can search for this command prompt in the `Start` menu on Windows, or you can launch it from the product's install folder.
     - If running an enterprise product search for the `Python Command Prompt 3`
@@ -57,7 +79,7 @@ Developer install steps
     > `conda create --name your-clone-name --clone arcgispro-py3 --pinned
 3. When the Python environment has been cloned, activate the cloned environment and change directories (this is done to avoid executions inside the default enviornments directory):
     > `activate your-clone-name`
-      
+
     > `cd ..`
     - When the cloned enviornment is activated, the new environment name appears at the beginning of the path:
     > `(your-clone-name) C:\Program Files\ArcGIS\Pro\bin\Python\envs>`
@@ -99,13 +121,14 @@ Most of the packages included in the Deep Learning Libraries installer will work
 
  GPU requirement | Supported
  -----|---------------------
- GPU Type | NVIDIA with CUDA Compute Capability<sup>&ast;</sup> 3.5 minimum, 6.1 or higher recommended
-GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; version 456.18 or higher is required.
- Dedicated graphics memory <sup>&dagger;</sup> | minimum: 2GB <br />recommended: 8GB, depending on the deep learning model architecture and the batch size being used
-
-&ast; NVIDIA provides a list of [CUDA enabled products](https://developer.nvidia.com/cuda-gpus#compute) and their compute capability.
+ GPU Type | NVIDIA with CUDA Compute Capability 3.7 minimum, 6.1 or later recommended. See the list of [CUDA-enabled cards](https://developer.nvidia.com/cuda-gpus) to determine the compute capability of a GPU.
+GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; version 456.38 or higher is required.
+ Dedicated graphics memory <sup>&dagger;</sup> | minimum: 4GB <br />recommended: 8GB or more, depending on the deep learning model architecture and the batch size being used
 
 &dagger; GPU memory, unlike system memory, cannot be accessed 'virtually'. If a model training consumes more GPU memory than you have available, it will fail. GPU memory is also shared across all uses of the machine, so open Pro projects with maps and other applications can limit the available memory for use with these tools.
+
+:information_source: | An out-of-date GPU driver will cause deep learning tools to fail with runtime errors indicating that CUDA is not installed or an unsupported toolchain is present. Verify that you have up-to-date GPU drivers directly provided by NVIDIA.
+
 
 
 Manifest of included packages
@@ -305,7 +328,6 @@ imageio | 2.8.0 | A Python library for reading and writing image data
 joblib | 1.0.1 | Lightweight pipelining: using Python functions as pipeline jobs.
 keepalive | 0.5 | An HTTP handler for urllib that supports HTTP 1.1 and keepalive
 keras-applications | 1.0.8 | Applications module of the Keras deep learning library.
-keras-base | 2.3.1 | 
 keras-gpu | 2.3.1 | Deep Learning Library for Theano and TensorFlow
 keras-preprocessing | 1.1.2 | Data preprocessing and data augmentation module of the Keras deep learning library
 laspy | 1.7.0 | A Python library for reading, modifying and creating LAS files
