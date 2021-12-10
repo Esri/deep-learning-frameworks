@@ -32,15 +32,15 @@ Download
 Installation
 ------------
 
-**On Windows**
+**On Windows:**
 
 Once you've downloaded the archive for your product, extract the Zip file to a new location, and run the Windows Installer (e.g. `ProDeepLearning.msi`) on Windows. This will install the deep learning frameworks into the default `arcgispro-py3` Python environment, but not any custom environments you've created prior to running this installation. After installation, subsequent clones will also include the full deep learning package set. You'll need to extract the file (not just open the .MSI from within the Zip file) or the installer won't be able to find its contents.  After installation, the archive and installer files can be deleted.
 
-**On Server Linux**
+**On Server Linux:**
 
 Extract the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. For Server 10.9 and earlier, this would create a package set inside of the Server runtime environment. Starting at Server 10.9.1, this installation creates a new `deep-learning` environment, and the deep learning package set is native Linux.
 
-**Upgrading From a Previous Version**
+**Upgrading From a Previous Version:**
 
 If you're upgrading from a previous release, the safest way to upgrade is to uninstall and reinstall both the product and the deep learning installer. For example, to upgrade from Pro 2.8 to Pro 2.9:
 
@@ -127,7 +127,7 @@ GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; versio
 
 &dagger; GPU memory, unlike system memory, cannot be accessed 'virtually'. If a model training consumes more GPU memory than you have available, it will fail. GPU memory is also shared across all uses of the machine, so open Pro projects with maps and other applications can limit the available memory for use with these tools.
 
-:information_source: | An out-of-date GPU driver will cause deep learning tools to fail with runtime errors indicating that CUDA is not installed or an unsupported toolchain is present. Verify that you have up-to-date GPU drivers directly provided by NVIDIA.
+:information_source: An out-of-date GPU driver will cause deep learning tools to fail with runtime errors indicating that CUDA is not installed or an unsupported toolchain is present. Verify that you have up-to-date GPU drivers directly provided by NVIDIA.
 
 
 
