@@ -327,7 +327,7 @@ imageio | 2.8.0 | A Python library for reading and writing image data
 joblib | 1.0.1 | Lightweight pipelining: using Python functions as pipeline jobs.
 keepalive | 0.5 | An HTTP handler for urllib that supports HTTP 1.1 and keepalive
 keras-applications | 1.0.8 | Applications module of the Keras deep learning library.
-/eras-gpu | 2.3.1 | Deep Learning Library for Theano and TensorFlow
+keras-gpu | 2.3.1 | Deep Learning Library for Theano and TensorFlow
 keras-preprocessing | 1.1.2 | Data preprocessing and data augmentation module of the Keras deep learning library
 laspy | 1.7.0 | A Python library for reading, modifying and creating LAS files
 libboost | 1.73.0 | Free peer-reviewed portable C++ source libraries
