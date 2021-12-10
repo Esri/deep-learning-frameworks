@@ -38,7 +38,7 @@ Once you've downloaded the archive for your product, extract the Zip file to a n
 
 **On Server Linux:**
 
-Extract the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. For Server 10.9 and earlier, this would create a package set inside of the Server runtime environment. Starting at Server 10.9.1, this installation creates a new `deep-learning` environment, and the deep learning package set is native Linux.
+Extract the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. For Server 10.9 and earlier, this would create a package set inside of the Server runtime environment. Starting at Server 10.9.1, this installation creates a new `deeplearning` environment located in `<Server Install/framework/runtime/deeplearning` and the deep learning packages are all native Linux implementations.
 
 **Upgrading From a Previous Version:**
 
