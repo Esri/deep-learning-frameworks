@@ -39,7 +39,7 @@ Once you've downloaded the archive for your product, extract the Zip file to a n
 
 **On Server Linux:**
 
-Extract the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. For Server 10.9 and earlier, this would create a package set inside of the Server runtime environment. Starting at Server 10.9.1, this installation creates a new `deeplearning` environment located in `<Server Install/framework/runtime/deeplearning` and the deep learning packages are all native Linux implementations.
+Extract the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `DeepLearning-Setup.sh` script. For Server 10.9 and earlier, this would create a package set inside of the Server runtime environment. Starting at Server 10.9.1, this installation creates a new `deeplearning` environment located in `<Server Install>/framework/runtime/deeplearning` and the deep learning packages are all native Linux implementations. Next, please uncomment the `ARCGIS_CONDA_DEEPLEARNING` variable in the `<Server Install>/arcgis/server/usr/init_user_param.sh` file and restart your ArcGIS Server.
 
 **Upgrading From a Previous Version:**
 
