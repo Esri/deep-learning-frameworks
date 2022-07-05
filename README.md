@@ -77,14 +77,12 @@ Developer install steps
     - You can search for this command prompt in the `Start` menu on Windows, or you can launch it from the product's install folder.
     - If running an enterprise product search for the `Python Command Prompt 3`
 2. Clone the default Python environment with this command: (don't forget the `--pinned`!)
-    > `conda create --name your-clone-name --clone arcgispro-py3 --pinned
-3. When the Python environment has been cloned, activate the cloned environment and change directories (this is done to avoid executions inside the default enviornments directory):
+    > `conda create -n your-clone-name --clone arcgispro-py3 --pinned
+3. When the Python environment has been cloned, activate the cloned environment:
     > `activate your-clone-name`
-
-    > `cd ..`
     - When the cloned enviornment is activated, the new environment name appears at the beginning of the path:
     > `(your-clone-name) C:\Program Files\ArcGIS\Pro\bin\Python\envs>`
-4. Install the deep learning essentials meta-package into your cloned environment with:
+4. Install the deep learning essentials libraries into your cloned environment with:
     > `conda install deep-learning-essentials`
     - When prompted to proceed, review the information, type `y`, and press `Enter`
     - If the packages install successfully your cloned enviornment is now setup to run deep learning workflows
