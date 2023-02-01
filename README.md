@@ -136,7 +136,15 @@ GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; versio
 
 :information_source: An out-of-date GPU driver will cause deep learning tools to fail with runtime errors indicating that CUDA is not installed or an unsupported toolchain is present. Verify that you have up-to-date GPU drivers directly provided by NVIDIA.
 
+### Tool Requirements
 
+Geoprocessing tools using deep learning are integrated into multiple areas of the software, and require the related extensions installed to function:
+
+Tools | Extension
+-|-
+[Model training, inferencing and exploration](https://pro.arcgis.com/en/pro-app/latest/help/analysis/deep-learning/deep-learning-in-arcgis-pro.htm) | [Image Analyst](https://pro.arcgis.com/en/pro-app/latest/help/analysis/image-analyst/what-is-the-arcgis-pro-image-analyst-extension-.htm)
+[Point cloud classification](https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/an-overview-of-the-point-cloud-toolset.htm) | [3D Analyst](https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/an-overview-of-the-3d-analyst-toolbox.htm)
+[AutoML and text analysis](https://pro.arcgis.com/en/pro-app/latest/tool-reference/geoai/an-overview-of-the-geoai-toolbox.htm) | [Advanced, no extension required](https://pro.arcgis.com/en/pro-app/latest/tool-reference/geoai/geoai-toolbox-license.htm)
 
 Manifest of included packages
 -----------------------------
