@@ -14,6 +14,7 @@ Download
 --------
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/esri/deep-learning-frameworks/total?style=for-the-badge)
+  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.1](https://links.esri.com/pro-deep-learning-libraries/31)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.0.3](https://links.esri.com/pro-deep-learning-libraries/303)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.0&mdash;3.0.2](https://links.esri.com/pro-deep-learning-libraries/30)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 11.0](https://links.esri.com/server-win-deep-learning-libraries/11)**
@@ -149,6 +150,10 @@ Tools | Extension
 Manifest of included packages
 -----------------------------
 
+
+
+<details>
+  <summary><b>Manifest for Pro 3.0 / Server 11</b></summary>
 Library Name | Version | Description
 -------------|---------|------------
 [absl-py](https://abseil.io/) | 0.13.0 | Abseil Python Common Libraries
@@ -305,6 +310,7 @@ tensorflow-gpu | 2.5.1 | Metapackage for selecting the GPU-backed TensorFlow var
 [xgboost](https://github.com/dmlc/xgboost) | 1.3.3 | Scalable, portable and distributed Gradient Boosting (GBDT, GBRT or GBM) library
 [yapf](https://github.com/google/yapf) | 0.31.0 | A formatter for Python files
 [yarl](https://github.com/aio-libs/yarl) | 1.6.3 | Yet another URL library
+</details>
 
 <details>
   <summary><b>Manifest for Pro 2.8 / Server 10.9.0</b></summary>
