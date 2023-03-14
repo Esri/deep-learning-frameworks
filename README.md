@@ -610,3 +610,11 @@ Additional Notes
  - This installer adds packages to the default `arcgispro-py3` environment. Any subsequent clones of that environment will also include this full collection of packages. This collection of packages is validated and tested against the version of Pro is installed alongside, and upgrades of Pro will also require reinstallation of the deep learning libraries. Note that when you upgrade the software to a new release, you'll need to uninstall the Deep Learning Libraries installation as well as Pro or Server, and reinstall the new version of this package for that release.
  - This installer is only available for ArcGIS Pro 2.6+, and ArcGIS Server 10.8.1+ -- for earlier releases, you'll need to follow the documentation for that release on installing the packages through the Python backstage or Python command prompt.
  - If you want these packages for a specific environment only, you can install the `deep-learning-essentials` package which has the same list of dependencies as a standalone conda metapackage.
+ 
+Known Issues
+------------
+
+The current package set includes a TensorFlow build which has long paths. When creating cloned environments, these paths can easily exceed the [Windows MAX_PATH limitation](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry), which prevents paths longer than 260 characters being created. To work around this limitation, the following setting can be changed in the registry:
+
+![allow-long-file-paths-ntfs](https://user-images.githubusercontent.com/46331011/225140182-df32dcfe-dca2-4e7f-9992-4c389af36184.png)
+
