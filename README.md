@@ -107,7 +107,7 @@ If you will be working in a disconnected environment, download the `arcgis_dl_ba
 
 Pro versions | Server versions | Backbones package
 -|-|-
-2.9&mdash;3.0 | 10.9.1&mdash;11.0 | [PyTorch 1.8 `arcgis_dl_backbones` package](https://geosaurus.maps.arcgis.com/home/item.html?id=ad8ecd2a45af4e3282a4d9ff455024be)
+2.9&mdash;3.1 | 10.9.1&mdash;11.1 | [PyTorch 1.8 `arcgis_dl_backbones` package](https://geosaurus.maps.arcgis.com/home/item.html?id=ad8ecd2a45af4e3282a4d9ff455024be)
 2.5&mdash;2.8 | 10.7.1&mdash;10.9.0 | [PyTorch 1.4 `arcgis_dl_backbones` package](https://geosaurus.maps.arcgis.com/home/item.html?id=d404fd50d05d475f8d92eedb78e1c961)
 
 Next Steps
