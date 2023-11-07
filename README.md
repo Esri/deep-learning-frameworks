@@ -16,8 +16,8 @@ Download
 ![GitHub All Releases](https://img.shields.io/github/downloads/esri/deep-learning-frameworks/total?style=for-the-badge)
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.2](https://links.esri.com/pro-deep-learning-libraries/32)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.1](https://links.esri.com/pro-deep-learning-libraries/31)**
-  - **[Deep Learning Libraries Installer for ArcGIS Server 11.2](https://links.esri.com/server-win-deep-learning-libraries/112)**
-  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.2](https://links.esri.com/server-linux-deep-learning-libraries/112)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 11.1](https://links.esri.com/server-win-deep-learning-libraries/111)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.1](https://links.esri.com/server-linux-deep-learning-libraries/111)**
 
 <details>
   <summary><b>Downloads for Previous Releases</b></summary>
