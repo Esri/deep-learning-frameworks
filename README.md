@@ -620,7 +620,7 @@ Additional Notes
 Known Issues
 ------------
 
-The current package set includes a TensorFlow build which has long paths. When creating cloned environments, these paths can easily exceed the [Windows MAX_PATH limitation](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry), which prevents paths longer than 260 characters being created. To work around this limitation, the following setting can be changed in the registry:
+The Pro 3.1 and earlier package set includes a TensorFlow build which has long paths. When creating cloned environments, these paths can easily exceed the [Windows MAX_PATH limitation](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry), which prevents paths longer than 260 characters being created. To work around this limitation, the following setting can be changed in the registry:
 
 ![allow-long-file-paths-ntfs](https://user-images.githubusercontent.com/46331011/225140182-df32dcfe-dca2-4e7f-9992-4c389af36184.png)
 
