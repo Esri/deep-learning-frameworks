@@ -631,7 +631,12 @@ Additional Notes
  - This installer adds packages to the default `arcgispro-py3` environment. Any subsequent clones of that environment will also include this full collection of packages. This collection of packages is validated and tested against the version of Pro is installed alongside, and upgrades of Pro will also require reinstallation of the deep learning libraries. Note that when you upgrade the software to a new release, you'll need to uninstall the Deep Learning Libraries installation as well as Pro or Server, and reinstall the new version of this package for that release.
  - This installer is only available for ArcGIS Pro 2.6+, and ArcGIS Server 10.8.1+ -- for earlier releases, you'll need to follow the documentation for that release on installing the packages through the Python backstage or Python command prompt.
  - If you want these packages for a specific environment only, you can install the `deep-learning-essentials` package which has the same list of dependencies as a standalone conda metapackage.
- 
+
+Continued Tensorflow Support
+----------------
+
+The Pro 3.3 package set includes an upgrade to Tensorflow version 2.13. TensorFlow 2.10 was the last TensorFlow release that supported GPU on native-Windows. We recommend migrating any GPU dependent Tensorflow code to pytorch where possible.
+
 Known Issues
 ------------
 
