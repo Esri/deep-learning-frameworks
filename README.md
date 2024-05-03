@@ -10,6 +10,9 @@ This installer adds all the included packages to the default [`arcgispro-py3` en
 
 For an example of the kinds of workflows this installer and ArcGIS enables, see the [AI & Deep Learning in the UC 2020 Plenary video](https://www.youtube.com/watch?v=eI5Sv_FsPgk&feature=youtu.be&list=PLaPDDLTCmy4YwK56yHaEdtRgNUoPBiZTz)
 
+> [!IMPORTANT]
+> Ensure compatibility by matching the versions of Deep Learning Libraries and ArcGIS software. Always download and install the corresponding version and remember to update the Deep Learning Libraries when you upgrade your ArcGIS software.
+
 Download
 --------
 
