@@ -111,7 +111,7 @@ Developer install steps
 Additional Installation for Disconnected Environment
 --------
 
-If you will be working in a disconnected environment, download the required metapackage packages from the links below and follow the instructions under the **Steps to Install** listed on the package's page. The packages places backbones for deep learning models in the specified install location, eliminating the need for internet access when training deep learning models in ArcGIS.
+If you will be working in a disconnected environment, download the required metapackage packages from the links below and follow the instructions under the **Steps to Install** listed on the package's page. The packages place backbones for deep learning models in the specified install location, eliminating the need for internet access when training deep learning models in ArcGIS.
 
 Backbones packages |
 -|
