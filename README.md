@@ -1,3 +1,7 @@
+
+> [!IMPORTANT]
+> Deep Learning setups for the Pro 3.3 and Enterprise 11.3 releases will happen the week of May 27th. Until then, you can remain on older versions of the software or use the [developer installation steps](https://github.com/Esri/deep-learning-frameworks?tab=readme-ov-file#developer-install-steps) in a custom environment.
+
 # Deep Learning Libraries Installers for ArcGIS
 
 <div align="center">
