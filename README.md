@@ -1,14 +1,10 @@
-
-> [!IMPORTANT]
-> Deep Learning setups for the Pro 3.3 and Enterprise 11.3 releases will happen the week of May 27th. Until then, you can remain on older versions of the software or use the [developer installation steps](https://github.com/Esri/deep-learning-frameworks?tab=readme-ov-file#developer-install-steps) in a custom environment.
-
 # Deep Learning Libraries Installers for ArcGIS
 
 <div align="center">
   <img src="include/included-frameworks.png" />
 </div>
 
-ArcGIS Pro, Server and the ArcGIS API for Python all include tools to use AI and Deep Learning to solve geospatial problems, such as feature extraction, pixel classification, and feature categorization.  This installer includes a broad collection of components, such as PyTorch, TensorFlow, Fast.ai and scikit-learn, for performing deep learning and machine learning tasks, a total collection of 99 packages. These packages can be used with the [Deep Learning Training tools](https://pro.arcgis.com/en/pro-app/latest/help/analysis/image-analyst/deep-learning-in-arcgis-pro.htm), [interactive object detection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/exploratory-analysis/interactive-object-detection-basics.htm), by using the [`arcgis.learn`](https://developers.arcgis.com/python/guide/geospatial-deep-learning/) module within the ArcGIS API for Python, and directly imported into your own scripts and tools. Most of the tools in this collection will work on any machine, but common deep learning workflows require a recent NVIDIA graphics processing unit (GPU), and problem sizes are bound by available GPU memory, see [the requirements section](#requirements).
+ArcGIS Pro, Server and the ArcGIS API for Python all include tools to use AI and Deep Learning to solve geospatial problems, such as feature extraction, pixel classification, and feature categorization.  This installer includes a broad collection of components, such as PyTorch, TensorFlow, Fast.ai and scikit-learn, for performing deep learning and machine learning tasks, a total collection of 254 packages. These packages can be used with the [Deep Learning Training tools](https://pro.arcgis.com/en/pro-app/latest/help/analysis/image-analyst/deep-learning-in-arcgis-pro.htm), [interactive object detection](https://pro.arcgis.com/en/pro-app/latest/help/mapping/exploratory-analysis/interactive-object-detection-basics.htm), by using the [`arcgis.learn`](https://developers.arcgis.com/python/guide/geospatial-deep-learning/) module within the ArcGIS API for Python, and directly imported into your own scripts and tools. Most of the tools in this collection will work on any machine, but common deep learning workflows require a recent NVIDIA graphics processing unit (GPU), and problem sizes are bound by available GPU memory, see [the requirements section](#requirements).
 
 This installer adds all the included packages to the default [`arcgispro-py3` environment](https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/installing-python-for-arcgis-pro.htm) that Pro and Server both ship with, and no additional environments are necessary in order to get started using the tools. If you do create custom environments, these packages will also be included so you can use the same tools in your own custom environments as well.
 
@@ -21,22 +17,26 @@ Download
 --------
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/esri/deep-learning-frameworks/total?style=for-the-badge)
+  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.3](https://links.esri.com/pro-deep-learning-libraries/33)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.2](https://links.esri.com/pro-deep-learning-libraries/32)**
-  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.1](https://links.esri.com/pro-deep-learning-libraries/31)**
-  - **[Deep Learning Libraries Installer for ArcGIS Server 11.2](https://links.esri.com/server-win-deep-learning-libraries/112)**
-  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.2](https://links.esri.com/server-linux-deep-learning-libraries/112)**
-  - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.1](https://links.esri.com/allsource-deep-learning-libraries/11)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 11.3](https://links.esri.com/server-win-deep-learning-libraries/113)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.3](https://links.esri.com/server-linux-deep-learning-libraries/113)**
+  - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.2](https://links.esri.com/allsource-deep-learning-libraries/12)**
     
 <details>
   <summary><b>Downloads for Previous Releases</b></summary>
-
+  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.2](https://links.esri.com/server-linux-deep-learning-libraries/112)**
+  - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.1](https://links.esri.com/allsource-deep-learning-libraries/11)**
+  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.1](https://links.esri.com/pro-deep-learning-libraries/31)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.0.3](https://links.esri.com/pro-deep-learning-libraries/303)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.0&mdash;3.0.2](https://links.esri.com/pro-deep-learning-libraries/30)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.9](https://links.esri.com/pro-deep-learning-libraries/29)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.8](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.8/ArcGIS_Pro_28_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.7](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.7/ArcGIS_Pro_27_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.6](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.6/ArcGIS_Pro_26_Deep_Learning_Libraries.zip)**
-   - **[Deep Learning Libraries Installer for ArcGIS Server 11.1](https://links.esri.com/server-win-deep-learning-libraries/111)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 11.2](https://links.esri.com/server-win-deep-learning-libraries/112)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.2](https://links.esri.com/server-linux-deep-learning-libraries/112)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 11.1](https://links.esri.com/server-win-deep-learning-libraries/111)**
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.1](https://links.esri.com/server-linux-deep-learning-libraries/111)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 11.0](https://links.esri.com/server-win-deep-learning-libraries/11)**
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.0](https://links.esri.com/server-linux-deep-learning-libraries/11)**
@@ -46,6 +46,7 @@ Download
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 10.9.1](https://links.esri.com/server-linux-deep-learning-libraries/1091)**
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 10.9](https://github.com/Esri/deep-learning-frameworks/releases/download/linux-server-10.9/ArcGIS_Linux_Server_109_Deep_Learning_Libraries.tar.gz)**
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 10.8.1](https://github.com/Esri/deep-learning-frameworks/releases/download/linux-server-10.8.1/ArcGIS_Linux_Server_1081_Deep_Learning_Libraries.tar.gz)**
+  - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.1](https://links.esri.com/allsource-deep-learning-libraries/11)**
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.0](https://links.esri.com/allsource-deep-learning-libraries/10)**
 </details>
 
@@ -62,13 +63,13 @@ Extract the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `De
 
 **Upgrading From a Previous Version:**
 
-If you're upgrading from a previous release, the safest way to upgrade is to uninstall and reinstall both the product and the deep learning installer. For example, to upgrade from Pro 2.8 to Pro 2.9:
+If you're upgrading from a previous release, the safest way to upgrade is to uninstall and reinstall both the product and the deep learning installer. For example, to upgrade from Pro 3.2 to Pro 3.2:
 
-1. Uninstall Deep Learning Libraries for ArcGIS Pro 2.8
-2. Uninstall ArcGIS Pro 2.8
+1. Uninstall Deep Learning Libraries for ArcGIS Pro 3.2
+2. Uninstall ArcGIS Pro 3.2
 3. Directly remove any files still present in `C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3` or equivalent location for your installation. These may have been left over from previously modified environment.
-5. Install ArcGIS Pro 2.9
-6. Install ArcGIS Pro 2.9 Deep Learning downloaded from this site.
+5. Install ArcGIS Pro 3.3
+6. Install ArcGIS Pro 3.3 Deep Learning downloaded from this site.
 
 After these steps, you should have a clean Pro installation with the Deep Learning package set included in the default `arcgispro-py3` environment.
 
@@ -85,7 +86,7 @@ Developer install steps
 --------
 
 
-:warning: | Following these steps will install an experimental unverified package set
+:warning: | Following these steps will install an uncertified package set
 :---:|:---
 :information_source: | Make sure to clone the default Python environment to backup your install (see below)
 
@@ -149,7 +150,7 @@ Most of the packages included in the Deep Learning Libraries installer will work
 
  GPU requirement | Supported
  -----|---------------------
- GPU Type | NVIDIA with CUDA Compute Capability 3.7 minimum, 6.1 or later recommended. See the list of [CUDA-enabled cards](https://developer.nvidia.com/cuda-gpus) to determine the compute capability of a GPU.
+ GPU Type | NVIDIA with CUDA Compute Capability 5.0 minimum, 6.1 or later recommended. See the list of [CUDA-enabled cards](https://developer.nvidia.com/cuda-gpus) to determine the compute capability of a GPU.
 GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; version 527.41 or higher is required.
  Dedicated graphics memory <sup>&dagger;</sup> | minimum: 4GB <br />recommended: 8GB or more, depending on the deep learning model architecture and the batch size being used
 
