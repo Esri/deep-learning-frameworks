@@ -113,16 +113,17 @@ Additional Installation for Disconnected Environment
 
 If you will be working in a disconnected environment, download the required metapackage packages from the links below and follow the instructions under the **Steps to Install** listed on the package's page. The packages places backbones for deep learning models in the specified install location, eliminating the need for internet access when training deep learning models in ArcGIS.
 
-Backbones packages |
--|
-[ArcGIS Deep Learning Backbones package](https://esri.maps.arcgis.com/home/item.html?id=2ee4a8305733432daeb084d36d2f70c6)
-[ArcGIS Timm Deep Learning Backbones Part 1 v1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=fc123210a5fc4e3085df2d9fd04c9758)
-[ArcGIS Timm Deep Learning Backbones Part 2 v1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=5b379f6ed1af41d1b182c11e33552964)
-[ArcGIS Timm Deep Learning Backbones Part 3 v1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=20012bcc8b8c4f4db824ab35a48530b0)
-[ArcGIS Timm Deep Learning Backbones Part 4 v1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=659b266bf7b94b63aa2a1ea2b68f315e)
-[ArcGIS SAM Backbones 1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=28054b9812344f058ba0e59aa1420cb7)
-[ArcGIS Mistral Backbone package](https://esri.maps.arcgis.com/home/item.html?id=969d2fc57c834295af1a4a42cfd51f68)
-[ArcGIS Polygon Segmentation Postprocessing Backbone](https://esri.maps.arcgis.com/home/item.html?id=7e1485437b7b424597ea920271dab502)
+Backbones packages | Pytorch Version |
+-| -|
+[ArcGIS Deep Learning Backbones package](https://esri.maps.arcgis.com/home/item.html?id=e6b3828acfe44089a095a559a33c513a) | **1.4.0**  
+[ArcGIS Deep Learning Backbones package](https://esri.maps.arcgis.com/home/item.html?id=2ee4a8305733432daeb084d36d2f70c6) | **1.8.0**, **2.0.1**
+[ArcGIS Timm Deep Learning Backbones Part 1 v1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=fc123210a5fc4e3085df2d9fd04c9758) | **1.8.0**, **2.0.1**
+[ArcGIS Timm Deep Learning Backbones Part 2 v1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=5b379f6ed1af41d1b182c11e33552964) | **1.8.0**, **2.0.1**
+[ArcGIS Timm Deep Learning Backbones Part 3 v1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=20012bcc8b8c4f4db824ab35a48530b0) | **1.8.0**, **2.0.1**
+[ArcGIS Timm Deep Learning Backbones Part 4 v1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=659b266bf7b94b63aa2a1ea2b68f315e) | **1.8.0**, **2.0.1**
+[ArcGIS SAM Backbones 1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=28054b9812344f058ba0e59aa1420cb7) | **1.8.0**, **2.0.1**
+[ArcGIS Mistral Backbone package](https://esri.maps.arcgis.com/home/item.html?id=969d2fc57c834295af1a4a42cfd51f68) | **1.8.0**, **2.0.1**
+[ArcGIS Polygon Segmentation Postprocessing Backbone](https://esri.maps.arcgis.com/home/item.html?id=7e1485437b7b424597ea920271dab502) | **1.8.0**, **2.0.1**
 
 Next Steps
 ----------
