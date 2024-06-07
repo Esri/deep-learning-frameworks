@@ -896,15 +896,20 @@ Additional Notes
  - This installer is only available for ArcGIS Pro 2.6+, and ArcGIS Server 10.8.1+ -- for earlier releases, you'll need to follow the documentation for that release on installing the packages through the Python backstage or Python command prompt.
  - If you want these packages for a specific environment only, you can install the `deep-learning-essentials` package which has the same list of dependencies as a standalone conda metapackage.
 
-Continued Tensorflow Support
-----------------
+TensorFlow Support
+------------------
 
-The Pro 3.3 package set includes an upgrade to Tensorflow version 2.13. TensorFlow 2.10 was the last TensorFlow release that supported GPU on native-Windows. We recommend migrating any GPU dependent Tensorflow code to pytorch where possible.
+> [!IMPORTANT]
+> The Pro 3.3 package set includes a CPU-only build of TensorFlow 2.13. TensorFlow 2.10 was the [last TensorFlow release](https://www.tensorflow.org/install/pip#windows-native) that includes native Windows GPU support. We recommend migrating any GPU dependent TensorFlow code to PyTorch to remain in sync with the shifting deep learning landscape. If you have performance dependent code in TensorFlow not easily migrated, Pro 3.2 and earlier have GPU supported versions of TensorFlow.
+
 
 Known Issues
 ------------
 
+<details>
+<Summary><b>Pro 3.1 and earlier</b></Summary>
+
 The Pro 3.1 and earlier package set includes a TensorFlow build which has long paths. When creating cloned environments, these paths can easily exceed the [Windows MAX_PATH limitation](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=registry), which prevents paths longer than 260 characters being created. To work around this limitation, the following setting can be changed in the registry:
 
 ![allow-long-file-paths-ntfs](https://user-images.githubusercontent.com/46331011/225140182-df32dcfe-dca2-4e7f-9992-4c389af36184.png)
-
+</details>
