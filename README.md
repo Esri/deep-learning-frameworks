@@ -64,7 +64,7 @@ Extract the .tar.gz archive, e.g. with `tar xvf <file>.tar.gz`, then run the `De
 
 **Upgrading From a Previous Version:**
 
-If you're upgrading from a previous release, the safest way to upgrade is to uninstall and reinstall both the product and the deep learning installer. For example, to upgrade from Pro 3.2 to Pro 3.2:
+If you're upgrading from a previous release, the safest way to upgrade is to uninstall and reinstall both the product and the deep learning installer. For example, to upgrade from Pro 3.2 to Pro 3.3:
 
 1. Uninstall Deep Learning Libraries for ArcGIS Pro 3.2
 2. Uninstall ArcGIS Pro 3.2
