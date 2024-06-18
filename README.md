@@ -223,7 +223,7 @@ Library Name | Version | Description
 [ensemble-boxes](https://github.com/ZFTurbo/Weighted-Boxes-Fusion) | 1.0.8 | Methods for ensembling boxes from object detection models
 [expat](http://expat.sourceforge.net) | 2.6.0 | Expat XML parser library in C
 [fairlearn](https://github.com/fairlearn/fairlearn) | 0.8.0 | Simple and easy fairness assessment and unfairness mitigation
-[fastai](https://github.com/fastai/fastai) | 1.0.63 | fastai makes deep learning with PyTorch faster, more accurate, and easier
+[fastai](https://github.com/fastai/fastai1) | 1.0.63 | fastai makes deep learning with PyTorch faster, more accurate, and easier
 [fastprogress](https://github.com/fastai/fastprogress) | 0.2.3 | A fast and simple progress bar for Jupyter Notebook and console
 [fasttext](https://fasttext.cc/) | 0.9.2 | Efficient text classification and representation learning
 [ffmpeg](http://www.ffmpeg.org/) | 6.1.1 | Cross-platform solution to record, convert and stream audio and video
@@ -472,7 +472,7 @@ Library Name | Version | Description
 [dtreeviz-extended](https://github.com/parrt/dtreeviz) | 1.3.7 | Decision tree visualization with included optional dependencies
 einops | 0.3.2 | A new flavor of deep learning operations
 [ensemble-boxes](https://github.com/ZFTurbo/Weighted-Boxes-Fusion) | 1.0.8 | Methods for ensembling boxes from object detection models
-[fastai](https://github.com/fastai/fastai) | 1.0.63 | fastai makes deep learning with PyTorch faster, more accurate, and easier
+[fastai](https://github.com/fastai/fastai1) | 1.0.63 | fastai makes deep learning with PyTorch faster, more accurate, and easier
 [fastprogress](https://github.com/fastai/fastprogress) | 0.2.3 | A fast and simple progress bar for Jupyter Notebook and console
 [fasttext](https://fasttext.cc/) | 0.9.2 | Efficient text classification and representation learning
 [filelock](https://github.com/benediktschmitt/py-filelock) | 3.9.0 | A platform independent file lock
@@ -659,7 +659,7 @@ cudnn | 8.1.0.77 | NVIDIA's cuDNN deep neural network acceleration library
 [dataclasses](https://github.com/ericvsmith/dataclasses://github.com/ericvsmith/dataclasses/) | 0.8 | A backport of the dataclasses module for Python 3.6
 [deep-learning-essentials](https://github.com/esri/deep-learning-framworks) | 2.9 | Expansive collection of deep learning packages
 [dtreeviz](https://github.com/parrt/dtreeviz) | 1.3 | Decision tree visualization
-[fastai](https://github.com/fastai/fastai) | 1.0.63 | fastai makes deep learning with PyTorch faster, more accurate, and easier
+[fastai](https://github.com/fastai/fastai1) | 1.0.63 | fastai makes deep learning with PyTorch faster, more accurate, and easier
 [fastprogress](https://github.com/fastai/fastprogress) | 0.2.3 | A fast and simple progress bar for Jupyter Notebook and console
 [fasttext](https://fasttext.cc/) | 0.9.2 | Efficient text classification and representation learning
 [filelock](https://github.com/benediktschmitt/py-filelock) | 3.3.1 | A platform independent file lock
