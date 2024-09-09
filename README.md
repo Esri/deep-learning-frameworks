@@ -136,13 +136,14 @@ Next Steps
 Once you've installed the deep learning libraries, you can use the [Deep Learning Tools](https://pro.arcgis.com/en/pro-app/help/analysis/image-analyst/deep-learning-in-arcgis-pro.htm) to train geospatial deep learning models. You can also find out more about the capabilities of the [arcgis.learn module](https://developers.arcgis.com/python/guide/geospatial-deep-learning/) which provides specialized access to many geospatial models beyond those directly available as Geoprocessing tools. Finally, you can add any of the above libraries to your own workflows, by importing the packages listed below.
 
  - Learn ArcGIS lesson on using [Deep Learning to Access Palm Tree Health](https://learn.arcgis.com/en/projects/use-deep-learning-to-assess-palm-tree-health/)
- - Join us later in 2021 for the [Spatial Data Science MOOC](https://www.esri.com/training/catalog/5d76dcf7e9ccda09bef61294/spatial-data-science:-the-new-frontier-in-analytics/#!)
+ - Join us for the six week [Spatial Data Science MOOC](https://www.esri.com/training/catalog/5d76dcf7e9ccda09bef61294/spatial-data-science:-the-new-frontier-in-analytics/#!)
 
-A collection of recent User Conference 2020 Technical Workshops on Deep Learning:
+A collection of Esri conference technical workshops on deep learning:
 
- - [Deep Dive into Deep Learning](https://uc2020.esri.com/live-stream/15346124/Deep-Dive-into-Deep-Learning)
- - [Deep Learning for Geographers](https://uc2020.esri.com/sessions/15346174/Deep-Learning-for-Geographers)
- - [Using Deep Learning with Imagery in ArcGIS](https://uc2020.esri.com/live-stream/15345718/Using-Deep-Learning-with-Imagery-in-ArcGIS)
+ - [Deep Dive into Deep Learning](https://mediaspace.esri.com/media/t/1_x42bxq4z)
+ - [Deep Learning with Imagery and 3D Data](https://mediaspace.esri.com/media/t/1_zb4ik1d5)
+ - [Deep Learning in ArcGIS Pro Start to Finish](https://mediaspace.esri.com/media/t/1_5s3wo2ph)
+
 
 Requirements
 ------------
