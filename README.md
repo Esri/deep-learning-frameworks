@@ -123,7 +123,7 @@ Backbones packages | Pytorch Version |
 [ArcGIS Timm Deep Learning Backbones Part 4 v1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=659b266bf7b94b63aa2a1ea2b68f315e) | **1.8.0**, **2.0.1**
 [ArcGIS SAM Backbones 1.0.0 package](https://esri.maps.arcgis.com/home/item.html?id=28054b9812344f058ba0e59aa1420cb7) | **1.8.0**, **2.0.1**
 [ArcGIS Mistral Backbone package](https://esri.maps.arcgis.com/home/item.html?id=969d2fc57c834295af1a4a42cfd51f68) | **1.8.0**, **2.0.1**
-[ArcGIS Polygon Segmentation Postprocessing Backbone](https://esri.maps.arcgis.com/home/item.html?id=9eff6069e3564b758c8d4bb22d11c667) | **1.8.0**, **2.0.1**
+[ArcGIS Polygon Segmentation Postprocessing Backbone package](https://esri.maps.arcgis.com/home/item.html?id=9eff6069e3564b758c8d4bb22d11c667) | **1.8.0**, **2.0.1**
 
 Next Steps
 ----------
