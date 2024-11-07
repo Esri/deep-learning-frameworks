@@ -16,6 +16,7 @@ For an example of the kinds of workflows this installer and ArcGIS enables, see 
 Download
 --------
 
+![GitHub All Releases](https://img.shields.io/github/downloads/esri/deep-learning-frameworks/total?style=for-the-badge)
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.4](https://links.esri.com/pro-deep-learning-libraries/34)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.3](https://links.esri.com/pro-deep-learning-libraries/33)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 11.4](https://links.esri.com/server-win-deep-learning-libraries/114)**
