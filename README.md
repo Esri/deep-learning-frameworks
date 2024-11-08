@@ -17,10 +17,10 @@ Download
 --------
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/esri/deep-learning-frameworks/total?style=for-the-badge)
+  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.4](https://links.esri.com/pro-deep-learning-libraries/34)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.3](https://links.esri.com/pro-deep-learning-libraries/33)**
-  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.2](https://links.esri.com/pro-deep-learning-libraries/32)**
-  - **[Deep Learning Libraries Installer for ArcGIS Server 11.3](https://links.esri.com/server-win-deep-learning-libraries/113)**
-  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.3](https://links.esri.com/server-linux-deep-learning-libraries/113)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 11.4](https://links.esri.com/server-win-deep-learning-libraries/114)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.4](https://links.esri.com/server-linux-deep-learning-libraries/114)**
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.2](https://links.esri.com/allsource-deep-learning-libraries/12)**
     
 <details>
@@ -28,6 +28,7 @@ Download
 
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.2](https://links.esri.com/server-linux-deep-learning-libraries/112)**
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.1](https://links.esri.com/allsource-deep-learning-libraries/11)**
+  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.2](https://links.esri.com/pro-deep-learning-libraries/32)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.1](https://links.esri.com/pro-deep-learning-libraries/31)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.0.3](https://links.esri.com/pro-deep-learning-libraries/303)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.0&mdash;3.0.2](https://links.esri.com/pro-deep-learning-libraries/30)**
@@ -35,6 +36,8 @@ Download
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.8](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.8/ArcGIS_Pro_28_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.7](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.7/ArcGIS_Pro_27_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.6](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.6/ArcGIS_Pro_26_Deep_Learning_Libraries.zip)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 11.3](https://links.esri.com/server-win-deep-learning-libraries/113)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.3](https://links.esri.com/server-linux-deep-learning-libraries/113)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 11.2](https://links.esri.com/server-win-deep-learning-libraries/112)**
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.2](https://links.esri.com/server-linux-deep-learning-libraries/112)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 11.1](https://links.esri.com/server-win-deep-learning-libraries/111)**
@@ -172,6 +175,266 @@ Tools | Extension
 
 Manifest of included packages
 -----------------------------
+
+Library Name | Version | Description
+-------------|---------|------------
+[absl-py](https://abseil.io/) | 2.1.0 | Abseil Python Common Libraries
+accelerate | 0.33.0 | Accelerate provides access to numerical libraries optimized for performance on Intel CPUs and NVidia GPUs
+[addict](https://github.com/mewwts/addict) | 2.4.0 | Provides a dictionary whose items can be set using both attribute and item syntax
+[affine](https://github.com/sgillies/affine) | 2.3.0 | Matrices describing affine transformation of the plane
+[aiohttp](https://github.com/aio-libs/aiohttp) | 3.9.5 | Async http client/server framework (asyncio)
+[aiosignal](https://github.com/aio-libs/aiosignal) | 1.2.0 | A list of registered asynchronous callbacks
+[albumentations](https://github.com/albu/albumentations) | 1.0.3 | Fast and flexible image augmentation library
+[alembic](https://bitbucket.org/zzzeek/alembic) | 1.8.1 | A database migration tool for SQLAlchemy
+[aom](https://aomedia.org/) | 3.9.1 | Alliance for Open Media video codec
+[astunparse](https://github.com/simonpercivall/astunparse) | 1.6.3 | An AST unparser for Python
+[atomicwrites](https://github.com/untitaker/python-atomicwrites) | 1.4.0 | Atomic file writes for Python
+[bitsandbytes](https://huggingface.co/docs/bitsandbytes) | 0.43.3 | Accessible large language models via k-bit quantization for PyTorch.
+[blosc](https://github.com/Blosc/c-blosc) | 1.21.3 | A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`
+[boost](http://www.boost.org/) | 1.82.0 | Boost provides peer-reviewed portable C++ source libraries
+[branca](https://github.com/python-visualization/branca) | 0.6.0 | Generate rich HTML + JS elements from Python
+[bzip2](http://www.bzip.org/) | 1.0.8 | High-quality data compressor
+[cairo](http://cairographics.org/) | 1.18.2 | A 2D graphics library with support for multiple output devices
+[catalogue](https://github.com/explosion/catalogue) | 2.0.10 | Super lightweight function registries for your library
+[catboost](http://catboost.ai) | 1.2.3 | Gradient boosting on decision trees library
+[category_encoders](https://github.com/scikit-learn-contrib/categorical_encoding) | 2.2.2 | A collection sklearn transformers to encode categorical variables as numeric
+[ccimport](https://github.com/FindDefinition/ccimport) | 0.4.2 | Fast C++ Python binding
+[charls](https://github.com/team-charls/charls) | 2.2.0 | CharLS, a C++ JPEG-LS library implementation
+[click-plugins](https://github.com/click-contrib/click-plugins) | 1.1.1 | An extension module for click to enable registering CLI commands via setuptools entry-points
+[cliff](https://github.com/openstack/cliff) | 3.8.0 | Command Line Interface Formulation Framework
+[cligj](https://github.com/mapbox/cligj) | 0.7.2 | Click params for commmand line interfaces to GeoJSON
+[cloudpathlib](https://github.com/drivendataorg/cloudpathlib) | 0.16.0 | pathlib.Path-style classes for interacting with files in different cloud storage services.
+[cmaes](https://github.com/CyberAgent/cmaes) | 0.8.2 | Blackbox optimization with the Covariance Matrix Adaptation Evolution Strategy
+[cmd2](https://github.com/python-cmd2/cmd2) | 2.4.3 | A tool for building interactive command line apps
+[coloredlogs](https://coloredlogs.readthedocs.org) | 15.0.1 | Colored terminal output for Python's logging module
+[colorlog](https://github.com/borntyping/python-colorlog) | 5.0.1 | Log formatting with colors!
+[colour](https://github.com/vaab/colour) | 0.1.5 | Python color representations manipulation library (RGB, HSL, web, ...)
+[confection](https://github.com/explosion/confection) | 0.1.4 | The sweetest config system for Python
+[cudatoolkit](https://developer.nvidia.com/cuda-toolkit) | 11.8.0 | NVIDIA's CUDA toolkit
+[cudnn](https://developer.nvidia.com/cudnn) | 8.7.0.84 | NVIDIA's cuDNN deep neural network acceleration library
+[cumm](https://github.com/FindDefinition/PCCM) | 0.4.11 | CUda Matrix Multiply library
+[cymem](https://github.com/explosion/cymem) | 2.0.6 | Manage calls to calloc/free through Cython
+[cython](http://www.cython.org/) | 3.0.10 | The Cython compiler for writing C extensions for the Python language
+[cython-blis](http://github.com/explosion/cython-blis) | 0.7.9 | Fast matrix-multiplication as a self-contained Python library – no system dependencies!
+[datasets](https://github.com/huggingface/datasets) | 2.16.1 | HuggingFace/Datasets is an open library of NLP datasets.
+[dav1d](https://code.videolan.org/videolan/dav1d) | 1.2.1 | The fastest AV1 decoder on all platforms
+[deep-learning-essentials](https://github.com/esri/deep-learning-frameworks) | 3.4 | Expansive collection of deep learning packages
+[descartes](http://bitbucket.org/sgillies/descartes/) | 1.1.0 | Use geometric objects as matplotlib paths and patches
+[detreg](https://github.com/amirbar/DETReg) | 1.0.0 | PyTorch Wrapper for CUDA Functions of Multi-Scale Deformable Attention
+[dill](http://www.cacr.caltech.edu/~mmckerns/dill.htm) | 0.3.7 | Serialize all of python (almost)
+[dm-tree](https://tree.readthedocs.io) | 0.1.7 | A library for working with nested data structures
+[dtreeviz](https://github.com/parrt/dtreeviz) | 1.3.7 | Decision tree visualization
+[einops](https://github.com/arogozhnikov/einops) | 0.7.0 | A new flavor of deep learning operations
+[ensemble-boxes](https://github.com/ZFTurbo/Weighted-Boxes-Fusion) | 1.0.8 | Methods for ensembling boxes from object detection models
+[expat](http://expat.sourceforge.net) | 2.6.3 | Expat XML parser library in C
+[fairlearn](https://github.com/fairlearn/fairlearn) | 0.8.0 | Simple and easy fairness assessment and unfairness mitigation
+[fastai](https://github.com/fastai/fastai) | 1.0.63 | fastai makes deep learning with PyTorch faster, more accurate, and easier
+[fastprogress](https://github.com/fastai/fastprogress) | 0.2.3 | A fast and simple progress bar for Jupyter Notebook and console
+[fasttext](https://fasttext.cc/) | 0.9.2 | Efficient text classification and representation learning
+[ffmpeg](http://www.ffmpeg.org/) | 7.0.0 | Cross-platform solution to record, convert and stream audio and video
+[filelock](https://github.com/benediktschmitt/py-filelock) | 3.13.1 | A platform independent file lock
+[fiona](http://github.com/Toblerity/Fiona) | 1.9.6 | OGR's neat, nimble, no-nonsense API for Python programmers
+[fire](https://github.com/google/python-fire) | 0.4.0 | A library for creating CLIs from absolutely any Python object
+[folium](https://python-visualization.github.io/folium/) | 0.14.0 | Make beautiful maps with Leaflet.js and Python
+[fribidi](https://github.com/fribidi/fribidi) | 1.0.10 | The Free Implementation of the Unicode Bidirectional Algorithm
+[frozenlist](https://github.com/aio-libs/frozenlist) | 1.4.0 | A list-like structure which implements collections.abc.MutableSequence
+[gast](https://github.com/serge-sans-paille/gast) | 0.5.3 | Python AST that abstracts the underlying Python version
+[gdown](https://github.com/wkentaro/gdown) | 5.2.0 | Download large files from Google Drive.
+[geopandas](http://geopandas.org) | 1.0.1 | Geographic pandas extensions, base package
+[geopandas-base](http://geopandas.org) | 1.0.1 | Geographic pandas extensions, metapackage
+[geos](http://trac.osgeo.org/geos/) | 3.12.1 | A C++ port of the Java Topology Suite (JTS)
+[getopt-win32](https://vcpkg.info/port/getopt-win32) | 0.1 | A port of getopt for Visual C++
+[gflags](https://github.com/gflags/gflags) | 2.2.2 | A C++ library that implements commandline flags processing
+[giflib](http://giflib.sourceforge.net) | 5.2.1 | Library for reading and writing gif images
+[glib](https://developer.gnome.org/glib/) | 2.78.4 | Provides core application building blocks for libraries and applications written in C
+[glib-tools](https://developer.gnome.org/glib/) | 2.78.4 | Provides core application building blocks for libraries and applications written in C, command line tools
+[google-auth](https://github.com/googleapis/google-auth-library-python) | 2.29.0 | Google authentication library for Python
+[google-auth-oauthlib](https://github.com/googleapis/google-auth-library-python-oauthlib) | 0.5.2 | Google Authentication Library, oauthlib integration with google-auth
+[google-pasta](https://github.com/google/pasta) | 0.2.0 | pasta is an AST-based Python refactoring library
+[gputil](https://github.com/anderskm/gputil) | 1.4.0 | NVIDIA GPU status from Python
+[graphite2](http://graphite.sil.org/) | 1.3.14 | A "smart font" system that handles the complexities of lesser-known languages of the world
+[graphviz](http://www.graphviz.org/) | 8.1.0 | Open Source graph visualization software
+[groundingdino-py](https://github.com/giswqs/GroundingDINO) | 0.4.0 | open-set object detector
+[grpcio](https://grpc.io) | 1.46.3 | HTTP/2-based RPC framework
+[gts](http://gts.sourceforge.net/) | 0.7.6 | GNU Triangulated Surface Library
+[h3-py](https://uber.github.io/h3-py/) | 3.7.6 | H3 Hexagonal Hierarchical Geospatial Indexing System
+[harfbuzz](http://www.freedesktop.org/wiki/Software/HarfBuzz/) | 4.3.0 | An OpenType text shaping engine
+[huggingface_hub](https://github.com/huggingface/huggingface_hub) | 0.24.3 | Client library to download and publish models on the huggingface.co hub
+[humanfriendly](https://humanfriendly.readthedocs.org) | 10.0 | Human friendly output for text interfaces using Python
+[icu](http://site.icu-project.org/) | 73.1 | International Components for Unicode
+[imagecodecs](https://github.com/cgohlke/imagecodecs) | 2023.1.23 | Image transformation, compression, and decompression codecs
+[imageio](http://imageio.github.io) | 2.33.1 | A Python library for reading and writing image data
+[imgaug](https://github.com/aleju/imgaug) | 0.4.0 | Image augmentation for machine learning experiments
+[inplace-abn](https://github.com/mapillary/inplace_abn) | 1.1.0 | In-Place Activated BatchNorm
+[joblib](http://packages.python.org/joblib/) | 1.4.2 | Python function as pipeline jobs
+[js2py](https://github.com/PiotrDabkowski/Js2Py) | 0.74 | JavaScript to Python Translator & JavaScript interpreter written in 100% pure Python.
+[jxrlib](https://packages.debian.org/source/sid/jxrlib) | 1.1 | jxrlib - JPEG XR Library by Microsoft, built from Debian hosted sources.
+[keras](https://github.com/fchollet/keras) | 2.13.1 | Deep Learning Library for Theano and TensorFlow
+[langcodes](http://github.com/rspeer/langcodes) | 3.3.0 | Labels and compares human languages in a standardized way
+[lark](https://github.com/lark-parser/lark) | 1.1.2 | a modern parsing library
+[laspy](http://github.com/laspy/laspy) | 1.7.1 | A Python library for reading, modifying and creating LAS files
+[lazy_loader](https://scientific-python.org/specs/spec-0001/) | 0.4 | Easily load subpackages and functions on demand
+[lcms2](https://www.littlecms.com) | 2.16 | The Little color management system
+[lerc](https://github.com/Esri/lerc) | 3.0 | Limited Error Raster Compression
+[libaec](https://gitlab.dkrz.de/k202009/libaec) | 1.0.4 | Adaptive entropy coding library
+[libavif](https://aomediacodec.github.io/av1-avif/) | 1.1.1 | A friendly, portable C implementation of the AV1 Image File Format
+[libboost](http://www.boost.org/) | 1.82.0 | Free peer-reviewed portable C++ source libraries
+[libclang](https://llvm.org/) | 14.0.6 | Development headers and libraries for the Clang compiler
+[libclang13](https://llvm.org/) | 14.0.6 | Development headers and libraries for the Clang compiler
+[libcurl](http://curl.haxx.se/) | 8.9.1 | Tool and library for transferring data with URL syntax
+[libffi](https://sourceware.org/libffi/) | 3.4.4 | Portable foreign-function interface library
+[libgd](http://libgd.github.io/) | 2.3.3 | Library for the dynamic creation of images
+[libglib](https://developer.gnome.org/glib/) | 2.78.4 | Provides core application building blocks for libraries and applications written in C
+[libiconv](https://www.gnu.org/software/libiconv/) | 1.16 | Convert text between different encodings
+[libnghttp2](https://www.nghttp2.org/) | 1.62.1 | HTTP/2 C library
+[libopencv](http://opencv.org/) | 4.8.1 | Computer vision and machine learning software library
+[libspatialindex](http://libspatialindex.github.io) | 1.9.3 | Extensible framework for robust spatial indexing
+[libsrt](https://github.com/Haivision/srt) | 1.5.3 | Secure, Reliable Transport
+[libuv](http://libuv.org/) | 1.40.0 | Cross-platform asynchronous I/O
+[libwebp](https://developers.google.com/speed/webp/) | 1.3.2 | WebP image library
+[libwebp-base](https://developers.google.com/speed/webp/) | 1.3.2 | WebP image library, minimal base library
+[libxgboost](https://github.com/dmlc/xgboost) | 2.0.3 | eXtreme Gradient Boosting
+[libzopfli](https://github.com/google/zopfli) | 1.0.3 | A compression library for very good but slow deflate or zlib compression
+[lightgbm](https://github.com/Microsoft/LightGBM) | 4.3.0 | LightGBM is a gradient boosting framework that uses tree based learning algorithms
+[llvmlite](https://github.com/numba/llvmlite) | 0.42.0 | A lightweight LLVM python binding for writing JIT compilers
+[mako](http://www.makotemplates.org) | 1.2.3 | Template library written in Python
+[mapclassify](https://pysal.org/mapclassify/) | 2.5.0 | Classification schemes for choropleth maps
+[markdown](http://packages.python.org/Markdown/) | 3.4.1 | Python implementation of Markdown
+[markdown-it-py](https://github.com/ExecutableBookProject/markdown-it-py) | 2.2.0 | Python port of markdown-it. Markdown parsing, done right!
+[mdurl](https://github.com/executablebooks/mdurl) | 0.1.0 | URL utilities for markdown-it-py parser
+[mljar-supervised](https://github.com/mljar/mljar-supervised) | 0.11.2 | Automated Machine Learning Pipeline with Feature Engineering and Hyper-Parameters Tuning
+[mmcv](https://github.com/open-mmlab/mmcv) | 2.0.1 | OpenMMLab Computer Vision Foundation
+[mmdet](https://github.com/open-mmlab/mmdetection) | 3.1.0 | OpenMMLab Detection Toolbox and Benchmark
+[mmdet3d](https://github.com/open-mmlab/mmdetection3d) | 1.2.0 | Next generation platform for general 3D object detection
+[mmengine](https://github.com/open-mmlab/mmengine) | 0.8.5 | Engine of OpenMMLab projects
+[mmsegmentation](https://github.com/open-mmlab/mmsegmentation) | 1.1.2 | semantic segmentation toolbox and benchmark
+[motmetrics](https://github.com/cheind/py-motmetrics) | 1.1.3 | Benchmark multiple object trackers (MOT) in Python
+[multidict](http://github.com/aio-libs/multidict) | 6.0.4 | Key-value pairs where keys are sorted and can reoccur
+[multiprocess](https://github.com/uqfoundation/multiprocess) | 0.70.15 | better multiprocessing and multithreading in python
+[munch](http://github.com/Infinidat/munch) | 2.5.0 | A dot-accessible dictionary (a la JavaScript objects)
+[murmurhash](https://github.com/explosion/murmurhash/) | 1.0.7 | A non-cryptographic hash function
+[nb_conda_kernels](https://github.com/Anaconda-Platform/nb_conda_kernels) | 2.5.1 | Launch Jupyter kernels for any installed conda environment
+[neural-structured-learning](https://github.com/tensorflow/neural-structured-learning) | 1.4.0 | Train neural networks with structured signals
+[ninja_syntax](https://pypi.python.org/pypi/ninja_syntax/1.6.0) | 1.7.2 | Python module for generating .ninja files
+[numba](http://numba.github.com) | 0.59.1 | NumPy aware dynamic Python compiler using LLVM
+[nuscenes-devkit](https://github.com/nutonomy/nuscenes-devkit) | 1.1.3 | The devkit of the nuScenes dataset
+[nvidia-ml-py3](https://github.com/nicolargo/nvidia-ml-py3) | 7.352.0 | Python bindings to the NVIDIA Management Library
+[onnx](https://github.com/onnx/onnx/) | 1.13.1 | Open Neural Network Exchange library
+[onnx-tf](http://github.com/onnx/onnx-tensorflow) | 1.9.0 | Experimental Tensorflow Backend for ONNX
+[onnxruntime](https://onnxruntime.ai/) | 1.18.1 | High performance ML inferencing and training accelerator, Python library
+[onnxruntime-cpp](https://onnxruntime.ai/) | 1.18.1 | High performance ML inferencing and training accelerator, C++ runtime
+[opencv](http://opencv.org/) | 4.8.1 | Computer vision and machine learning software library
+[openjpeg](http://www.openjpeg.org/) | 2.5.0 | An open-source JPEG 2000 codec written in C
+[opt-einsum](http://github.com/dgasmith/opt_einsum) | 3.3.0 | Optimizing einsum functions in NumPy, Tensorflow, Dask, and more with contraction order optimization
+[optuna](https://optuna.org/) | 3.0.4 | A hyperparameter optimization framework
+[pango](http://www.pango.org/) | 1.50.7 | Text layout and rendering engine
+[pathy](https://github.com/justindujardin/pathy) | 0.10.3 | A Path interface for local and cloud bucket storage
+[pbr](https://launchpad.net/pbr) | 5.6.0 | Python Build Reasonableness
+[pccm](https://github.com/FindDefinition/PCCM) | 0.4.11 | Python C++ code manager
+[pcre2](http://www.pcre.org/) | 10.42 | Regular expression pattern matching using the same syntax and semantics as Perl 5
+[pixman](http://www.pixman.org/) | 0.43.4 | A low-level software library for pixel manipulation
+[plotly](https://plot.ly/python/) | 5.20.0 | An interactive, browser-based graphing library for Python
+[portalocker](https://github.com/WoLpH/portalocker) | 2.3.0 | Portalocker is a library to provide an easy API to file locking.
+[portaudio](http://www.portaudio.com/) | 19.6.0 | A cross platform, open-source, audio I/O library
+[preshed](https://github.com/explosion/preshed) | 3.0.6 | Cython Hash Table for Pre-Hashed Keys
+[prettytable](https://github.com/jazzband/prettytable) | 2.1.0 | Display tabular data in a visually appealing ASCII table format
+[proj4](https://proj4.org) | 9.4.1 | PROJ coordinate transformation software library
+[py-boost](http://www.boost.org/) | 1.82.0 | Free peer-reviewed portable C++ source libraries
+[py-opencv](http://opencv.org/) | 4.8.1 | Computer vision and machine learning software library
+[py-xgboost](https://github.com/dmlc/xgboost) | 2.0.3 | Python bindings for the scalable, portable and distributed gradient boosting XGBoost library
+[pyasn1](https://github.com/etingof/pyasn1) | 0.4.8 | ASN.1 types and codecs
+[pyasn1-modules](http://pyasn1.sourceforge.net/) | 0.2.8 | A collection of ASN.1-based protocols modules
+[pycocotools](https://github.com/michael4338/pycocotools) | 2.0.7 | Python API for the MS-COCO dataset
+[pyjsparser](https://github.com/PiotrDabkowski/pyjsparser) | 2.7.1 | Fast javascript parser (based on esprima.js)
+[pyopenssl](https://github.com/pyca/pyopenssl) | 24.2.1 | Python wrapper module around the OpenSSL library
+[pyperclip](https://github.com/asweigart/pyperclip) | 1.8.2 | A cross-platform clipboard module for Python
+[pyproj](http://jswhit.github.io/pyproj/) | 3.6.1 | Python interface to PROJ4 library for cartographic transformations
+[pyquaternion](http://kieranwynn.github.io/pyquaternion/) | 0.9.9 | Pythonic library for representing and using quaternions
+[pyreadline3](https://github.com/pyreadline3/pyreadline3) | 3.4.1 | A python implmementation of GNU readline, modernized
+[python-flatbuffers](https://google.github.io/flatbuffers/) | 23.5.26 | Python runtime library for use with the Flatbuffers serialization format
+[python-graphviz](http://github.com/xflr6/graphviz) | 0.20.1 | Simple Python interface for Graphviz
+[python-sounddevice](https://python-sounddevice.readthedocs.io/) | 0.4.4 | Play and record sound with Python
+[python-tzdata](https://github.com/python/tzdata) | 2023.3 | Provider of IANA time zone data
+[python-xxhash](https://github.com/ifduyue/python-xxhash) | 2.0.2 | Python binding for xxHash
+[pytorch](http://pytorch.org/) | 2.0.1 | PyTorch is an optimized tensor library for deep learning using GPUs and CPUs
+[pywin32](https://sourceforge.net/projects/pywin32) | 305 | Python extensions for Windows
+[rasterio](https://github.com/mapbox/rasterio) | 1.3.10 | Rasterio reads and writes geospatial raster datasets
+[rich](https://github.com/Textualize/rich) | 13.3.5 | Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal
+[rsa](https://stuvel.eu/rsa) | 4.7.2 | Pure-Python RSA implementation
+[rtree](http://toblerity.github.com/rtree/) | 1.0.1 | R-Tree spatial index for Python GIS
+[safetensors](https://github.com/huggingface/safetensors) | 0.4.2 | Fast and Safe Tensor serialization
+[samgeo](https://github.com/opengeos/segment-geospatial) | 3.4 | A collection of the essential packages to work with the Segment Geospatial (samgeo) stack.
+[scikit-image](http://scikit-image.org/) | 0.22.0 | Image processing routines for SciPy
+[scikit-learn](http://scikit-learn.org/stable/) | 1.3.0 | A set of python modules for machine learning and data mining
+[scikit-plot](https://github.com/reiinakano/scikit-plot/) | 0.3.7 | Plotting for scikit-learn objects
+[segment-anything](https://github.com/opengeos/segment-anything) | 1.0 | An unofficial Python package for Meta AI's Segment Anything Model
+[segment-anything-hq](https://github.com/SysCV/sam-hq) | 0.3 | Official Python package for Segment Anything in High Quality
+[segment-geospatial](https://github.com/opengeos/segment-geospatial) | 0.10.2 | A Python package for segmenting geospatial data with the Segment Anything Model (SAM)
+[sentencepiece](https://github.com/google/sentencepiece/) | 0.1.99 | Unsupervised text tokenizer and detokenizer
+[shap](https://github.com/slundberg/shap) | 0.42.1 | A unified approach to explain the output of any machine learning model
+[shapely](https://github.com/Toblerity/Shapely) | 2.0.5 | Geometric objects, predicates, and operations
+[shellingham](https://github.com/sarugaku/shellingham) | 1.5.0 | Tool to Detect Surrounding Shell
+[slicer](https://github.com/interpretml/slicer) | 0.0.7 | A small package for big slicing
+[smart_open](https://github.com/RaRe-Technologies/smart_open) | 5.2.1 | Python library for efficient streaming of large files
+[snuggs](https://github.com/mapbox/snuggs) | 1.4.7 | Snuggs are s-expressions for NumPy
+[spacy](https://spacy.io/) | 3.7.2 | Industrial-strength Natural Language Processing
+[spacy-legacy](https://github.com/explosion/spacy-legacy) | 3.0.12 | spaCy NLP legacy functions and architectures for backwards compatibility
+[spacy-loggers](https://github.com/explosion/spacy-loggers) | 1.0.4 | Alternate loggers for spaCy pipeline training
+[spconv](https://github.com/traveller59/spconv) | 2.3.6 | Spatial sparse convolution
+[srsly](http://github.com/explosion/srsly) | 2.4.8 | Modern high-performance serialization utilities for Python
+[stevedore](http://docs.openstack.org/developer/stevedore/) | 5.1.0 | Manage dynamic plugins for Python applications
+[supervision](https://github.com/roboflow/supervision) | 0.6.0 | A set of easy-to-use utils that will come in handy in any Computer Vision project
+[tabulate](https://bitbucket.org/astanin/python-tabulate) | 0.9.0 | Pretty-print tabular data in Python, a library and a command-line utility
+[tbb](http://www.threadingbuildingblocks.org) | 2021.8.0 | High level abstract threading library
+[tenacity](https://github.com/jd/tenacity) | 8.2.3 | Retry a flaky function whenever an exception occurs until it works
+[tensorboard](http://tensorflow.org/) | 2.13.0 | TensorBoard lets you watch Tensors Flow
+[tensorboard-data-server](https://github.com/tensorflow/tensorboard) | 0.7.0 | Data server for TensorBoard
+[tensorboard-plugin-wit](https://github.com/PAIR-code/what-if-tool) | 1.6.0 | What-If Tool TensorBoard plugin
+[tensorboardx](https://github.com/lanpa/tensorboard://github.com/lanpa/tensorboardX) | 2.6.2.2 | TensorBoardX lets you watch Tensors Flow without Tensorflow
+[tensorflow](http://tensorflow.org/) | 2.13.0 | TensorFlow is a machine learning library
+[tensorflow-addons](https://github.com/tensorflow/addons) | 0.22.0 | Useful extra functionality for TensorFlow
+[tensorflow-estimator](https://www.tensorflow.org/guide/estimators) | 2.13.0 | TensorFlow Estimator
+[tensorflow-hub](https://www.tensorflow.org/hub) | 0.16.1 | A library for transfer learning by reusing parts of TensorFlow models
+[tensorflow-io-gcs-filesystem](http://tensorflow.org/) | 0.31.0 | Dataset, streaming, and file system extensions
+[tensorflow-model-optimization](https://www.tensorflow.org/model_optimization) | 0.7.5 | TensorFlow Model Optimization Toolkit
+[tensorflow-probability](https://www.tensorflow.org/probability/) | 0.20.1 | TensorFlow Probability is a library for probabilistic reasoning and statistical analysis in TensorFlow
+[termcolor](http://pypi.python.org/pypi/termcolor) | 2.1.0 | ANSII Color formatting for output in terminal
+[terminaltables](https://robpol86.github.io/terminaltables) | 3.1.0 | Generate simple tables in terminals from a nested list of strings
+[tflite-model-maker](http://github.com/tensorflow/examples) | 0.3.4 | A model customization library for on-device applications
+[tflite-support](https://github.com/tensorflow/tflite-support) | 0.4.4 | TensorFlow Lite Support for deploying TFLite models onto ombile devices
+[thinc](https://github.com/explosion/thinc/) | 8.2.2 | Learn super-sparse multi-class models
+[threadpoolctl](https://github.com/joblib/threadpoolctl) | 3.5.0 | Python helpers to control the threadpools of native libraries
+[tifffile](https://github.com/blink1073/tifffile) | 2023.4.12 | Read and write TIFF files
+[timm](https://github.com/rwightman/pytorch-image-models) | 0.4.12 | PyTorch image models
+[tokenizers](https://github.com/huggingface/tokenizers) | 0.19.1 | Fast State-of-the-Art Tokenizers optimized for Research and Production
+[torch-cluster](https://github.com/rusty1s/pytorch_cluster) | 1.6.3 | Extension library of highly optimized graph cluster algorithms for use in PyTorch
+[torch-geometric](https://github.com/rusty1s/pytorch_geometric) | 2.4.0 | Geometric deep learning extension library for PyTorch
+[torch-scatter](https://github.com/rusty1s/pytorch_scatter) | 2.1.2 | Extension library of highly optimized sparse update (scatter and segment) operations
+[torch-sparse](https://github.com/rusty1s/pytorch_sparse) | 0.6.18 | Extension library of optimized sparse matrix operations with autograd support
+[torch-spline-conv](https://github.com/rusty1s/pytorch_spline_conv) | 1.2.2 | PyTorch implementation of the spline-based convolution operator of SplineCNN
+[torchvision](http://pytorch.org/) | 0.15.2 | Image and video datasets and models for torch deep learning
+[torchvision-cpp](http://pytorch.org/) | 0.15.2 | Image and video datasets and models for torch deep learning, C++ interface
+[transformers](https://github.com/huggingface/transformers) | 4.43.4 | State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch
+[trimesh](https://github.com/mikedh/trimesh) | 2.35.39 | Import, export, process, analyze and view triangular meshes.
+[typeguard](https://github.com/agronholm/typeguard) | 2.12.1 | Runtime type checker for Python
+[typer](https://github.com/tiangolo/typer) | 0.9.0 | A library for building CLI applications
+[typing](https://docs.python.org/3.5/library/typing.html) | 3.10.0.0 | Type Hints for Python - backport for Python<3.5
+[tzlocal](https://github.com/regebro/tzlocal) | 5.2 | tzinfo object for the local timezone
+[wasabi](http://github.com/ines/wasabi) | 0.9.1 | A lightweight console printing and formatting toolkit
+[weasel](https://github.com/explosion/weasel) | 0.3.4 | A small and easy workflow system
+[werkzeug](http://werkzeug.pocoo.org/) | 3.0.3 | The Python WSGI Utility Library
+[wordcloud](https://github.com/amueller/word_cloud) | 1.9.3 | A little word cloud generator in Python
+[xgboost](https://github.com/dmlc/xgboost) | 2.0.3 | Scalable, portable and distributed Gradient Boosting (GBDT, GBRT or GBM) library
+[xmltodict](https://github.com/martinblech/xmltodict) | 0.13.0 | Makes working with XML feel like you are working with JSON
+[xxhash](https://www.xxhash.com) | 0.8.0 | Extremely fast hash algorithm
+[xyzservices](https://github.com/geopandas/xyzservices) | 2022.9.0 | Source of XYZ tiles providers
+[yapf](https://github.com/google/yapf) | 0.40.2 | A formatter for Python files
+[yarl](https://github.com/aio-libs/yarl) | 1.9.3 | Yet another URL library
+[zfp](https://computation.llnl.gov/projects/floating-point-compression) | 1.0.0 | Library for compressed numerical arrays that support high throughput read and write random access
+_py-xgboost-mutex | 2.0 | Metapackage for selecting the desired implementation of XGBoost
+
+<details>
+  <summary><b>Manifest for Pro 3.3 / Server 11.3</b></summary>
 
 Library Name | Version | Description
 -------------|---------|------------
@@ -430,7 +693,7 @@ Library Name | Version | Description
 [yarl](https://github.com/aio-libs/yarl) | 1.9.3 | Yet another URL library
 [zfp](https://computation.llnl.gov/projects/floating-point-compression) | 1.0.0 | Library for compressed numerical arrays that support high throughput read and write random access
 _py-xgboost-mutex | 2.0 | Metapackage for selecting the desired implementation of XGBoost
-
+</details>
 
 <details>
   <summary><b>Manifest for Pro 3.2 / Server 11.2</b></summary>
