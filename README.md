@@ -203,7 +203,7 @@ accelerate | 0.33.0 | Accelerate provides access to numerical libraries optimize
 [charls](https://github.com/team-charls/charls) | 2.2.0 | CharLS, a C++ JPEG-LS library implementation
 [click-plugins](https://github.com/click-contrib/click-plugins) | 1.1.1 | An extension module for click to enable registering CLI commands via setuptools entry-points
 [cliff](https://github.com/openstack/cliff) | 3.8.0 | Command Line Interface Formulation Framework
-[cligj](https://github.com/mapbox/cligj) | 0.7.2 | Click params for commmand line interfaces to GeoJSON
+[cligj](https://github.com/mapbox/cligj) | 0.7.2 | Click params for command line interfaces to GeoJSON
 [cloudpathlib](https://github.com/drivendataorg/cloudpathlib) | 0.16.0 | pathlib.Path-style classes for interacting with files in different cloud storage services.
 [cmaes](https://github.com/CyberAgent/cmaes) | 0.8.2 | Blackbox optimization with the Covariance Matrix Adaptation Evolution Strategy
 [cmd2](https://github.com/python-cmd2/cmd2) | 2.4.3 | A tool for building interactive command line apps
@@ -462,7 +462,7 @@ Library Name | Version | Description
 [charls](https://github.com/team-charls/charls) | 2.2.0 | CharLS, a C++ JPEG-LS library implementation
 [click-plugins](https://github.com/click-contrib/click-plugins) | 1.1.1 | An extension module for click to enable registering CLI commands via setuptools entry-points
 [cliff](https://github.com/openstack/cliff) | 3.8.0 | Command Line Interface Formulation Framework
-[cligj](https://github.com/mapbox/cligj) | 0.7.2 | Click params for commmand line interfaces to GeoJSON
+[cligj](https://github.com/mapbox/cligj) | 0.7.2 | Click params for command line interfaces to GeoJSON
 [cloudpathlib](https://github.com/drivendataorg/cloudpathlib) | 0.16.0 | pathlib.Path-style classes for interacting with files in different cloud storage services.
 [cmaes](https://github.com/CyberAgent/cmaes) | 0.8.2 | Blackbox optimization with the Covariance Matrix Adaptation Evolution Strategy
 [cmd2](https://github.com/python-cmd2/cmd2) | 2.4.3 | A tool for building interactive command line apps
