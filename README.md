@@ -21,13 +21,14 @@ Download
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.4](https://links.esri.com/pro-deep-learning-libraries/34)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 11.4](https://links.esri.com/server-win-deep-learning-libraries/114)**
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.4](https://links.esri.com/server-linux-deep-learning-libraries/114)**
-  - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.3](https://links.esri.com/allsource-deep-learning-libraries/13)**
+  - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.4](https://links.esri.com/allsource-deep-learning-libraries/14)**
     
 <details>
   <summary><b>Downloads for Previous Releases</b></summary>
 
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 11.2](https://links.esri.com/server-linux-deep-learning-libraries/112)**
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.1](https://links.esri.com/allsource-deep-learning-libraries/11)**
+  - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.3](https://links.esri.com/allsource-deep-learning-libraries/13)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.3](https://links.esri.com/pro-deep-learning-libraries/33)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.2](https://links.esri.com/pro-deep-learning-libraries/32)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.1](https://links.esri.com/pro-deep-learning-libraries/31)**
