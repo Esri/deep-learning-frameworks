@@ -165,7 +165,7 @@ Most of the packages included in the Deep Learning Libraries installer will work
  GPU requirement | Supported
  -----|---------------------
  GPU Type | NVIDIA with CUDA Compute Capability 5.0 minimum, 6.1 or later recommended. See the list of [CUDA-enabled cards](https://developer.nvidia.com/cuda-gpus) to determine the compute capability of a GPU.
-GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; version 527.41 or higher is required.
+GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; version 528.33 or higher is required.
  Dedicated graphics memory <sup>&dagger;</sup> | minimum: 4GB <br />recommended: 8GB or more, depending on the deep learning model architecture and the batch size being used
 
 &dagger; GPU memory, unlike system memory, cannot be accessed 'virtually'. If a model training consumes more GPU memory than you have available, it will fail. GPU memory is also shared across all uses of the machine, so open Pro projects with maps and other applications can limit the available memory for use with these tools.
