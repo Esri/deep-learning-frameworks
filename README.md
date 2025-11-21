@@ -12,6 +12,8 @@ For an example of the kinds of workflows this installer and ArcGIS enables, see 
 
 > [!IMPORTANT]
 > Ensure compatibility by matching the versions of Deep Learning Libraries and ArcGIS software. To upgrade from a previous version, begin by uninstalling both Deep Learning Libraries and your ArcGIS software, following the instructions provided below.
+>
+> TensorFlow has been removed from the libraries, see the [TensorFlow Support](#tensorflow-support) section for details.
 
 Download
 --------
@@ -24,7 +26,7 @@ Download
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.5](https://links.esri.com/allsource-deep-learning-libraries/15)**
   - **[Deep Learning Libraries Installer for ArcGIS Drone2Map 2025.2](https://links.esri.com/drone2map-deep-learning-libraries/20252)**
   - **[Deep Learning Libraries Installer for ArcGIS Reality Studio 2025.2](https://links.esri.com/realitystudio-deep-learning-libraries/20252)**
-    
+
 <details>
   <summary><b>Downloads for Previous Releases</b></summary>
 
@@ -181,15 +183,6 @@ Tools | Extension
 [Model training, inferencing and exploration](https://pro.arcgis.com/en/pro-app/latest/help/analysis/deep-learning/deep-learning-in-arcgis-pro.htm) | [Image Analyst](https://pro.arcgis.com/en/pro-app/latest/help/analysis/image-analyst/what-is-the-arcgis-pro-image-analyst-extension-.htm)
 [Point cloud classification](https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/an-overview-of-the-point-cloud-toolset.htm) | [3D Analyst](https://pro.arcgis.com/en/pro-app/latest/tool-reference/3d-analyst/an-overview-of-the-3d-analyst-toolbox.htm)
 [AutoML and text analysis](https://pro.arcgis.com/en/pro-app/latest/tool-reference/geoai/an-overview-of-the-geoai-toolbox.htm) | [Advanced, no extension required](https://pro.arcgis.com/en/pro-app/latest/tool-reference/geoai/geoai-toolbox-license.htm)
-
-TensorFlow Support
-------------------
-
-> [!IMPORTANT]
-> 
-> The Pro 3.3 package set includes a CPU-only build of TensorFlow 2.13. TensorFlow 2.10 was the [last TensorFlow release](https://www.tensorflow.org/install/pip#windows-native) that includes native Windows GPU support. We recommend migrating any GPU dependent TensorFlow code to PyTorch to remain in sync with the shifting deep learning landscape. If you have performance dependent code in TensorFlow not easily migrated, Pro 3.2 and earlier have GPU supported versions of TensorFlow.
-
-
 
 Manifest of included packages
 -----------------------------
@@ -1773,6 +1766,31 @@ typeguard | 2.7.0 | Runtime type checker for Python
 wasabi | 0.6.0 | A lightweight console printing and formatting toolkit
 werkzeug | 0.16.1 | The comprehensive WSGI web application library.
 </details>
+
+TensorFlow Support
+------------------
+
+> [!IMPORTANT]
+>
+> As of Pro 3.6, TensorFlow and its related packages have been removed from this distribution. Over time, TensorFlow has reduced its support for the platforms ArcGIS is used on. Native CUDA support for Windows was removed in 2022 at the TensorFlow 2.11 release, and in 2025 it took eleven months for a Python 3.13 compatible version to be released.
+>
+> As a result, we recommend migrating any TensorFlow dependent code to PyTorch to remain in sync with the shifting deep learning landscape.
+>
+> If you remain on older versions of the software, the Pro 3.3-3.5 package set includes a CPU-only build of TensorFlow 2.13. TensorFlow 2.10 was the [last TensorFlow release](https://www.tensorflow.org/install/pip#windows-native) that includes native Windows GPU support.  If you have performance dependent code in TensorFlow not easily migrated, Pro 3.2 and earlier have GPU accelerated versions of TensorFlow.
+
+The removal of TensorFlow also removed these related packages:
+
+- keras
+- onnx-tf
+- neural-structured-learning
+- tensorflow-addons
+- tensorflow-estimator
+- tensorflow-hub
+- tensorflow-model-optimization
+- tensorflow-probability
+- tflite-model-maker
+
+
 
 Additional Notes
 ----------------
