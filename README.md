@@ -117,14 +117,17 @@ Developer install steps
     > `activate your-clone-name`
     - When the cloned enviornment is activated, the new environment name appears at the beginning of the path:
     > `(your-clone-name) C:\Program Files\ArcGIS\Pro\bin\Python\envs>`
-4. Install the deep learning essentials libraries into your cloned environment with:
+4. If on a machine with an NVIDIA GPU, skip to step 5. If installing on a machine without a physical NVIDIA GPU to run the tools via CPU, run:
+   > `set CONDA_OVERRIDE_CUDA=12.6`
+    - This informs conda that you don't have an appropriate GPU which would otherwise prevent installation of GPU requiring components.
+5. Install the deep learning essentials libraries into your cloned environment with:
     > `conda install deep-learning-essentials`
     - When prompted to proceed, review the information, type `y`, and press `Enter`
     - If the packages install successfully your cloned enviornment is now setup to run deep learning workflows
-5. Type the following command to swap your product's default enviornment to your new cloned environment:
+6. Type the following command to swap your product's default enviornment to your new cloned environment:
     > `proswap your-clone-name`
     - When you next launch your product it will launch with `your-clone-name` as the active Python Environment and you should now be able to use deep learning tools
-6. If you run into any issues please contact [Esri Technical Support](https://support.esri.com/en/contact-tech-support)
+7. If you run into any issues please contact [Esri Technical Support](https://support.esri.com/en/contact-tech-support)
 </details>
 
 
