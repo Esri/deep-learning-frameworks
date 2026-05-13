@@ -11,6 +11,8 @@ This installer adds all the included packages to the default [`arcgispro-py3` en
 For an example of the kinds of workflows this installer and ArcGIS enables, see the [AI & Deep Learning in the UC 2020 Plenary video](https://www.youtube.com/watch?v=eI5Sv_FsPgk&feature=youtu.be&list=PLaPDDLTCmy4YwK56yHaEdtRgNUoPBiZTz)
 
 > [!IMPORTANT]
+> Pro 3.7, Enterprise 12.1 and their companion product releases are the last versions of this installer which support Maxwell, Pascal and Volta GPUs. NVIDIA is no longer providing ongoing active support for these GPUs which are from 2016 or earlier, which include the GTX 9 and GTX 10 series GPUs. See [NVIDIA's documentation on the support lifecycle for these cards](https://nvidia.custhelp.com/app/answers/detail/a_id/5676/~/support-plan-for-maxwell%2C-pascal%2C-and-volta-series-geforce-gpus.).
+>
 > Ensure compatibility by matching the versions of Deep Learning Libraries and ArcGIS software. To upgrade from a previous version, begin by uninstalling both Deep Learning Libraries and your ArcGIS software, following the instructions provided below.
 >
 > TensorFlow has been removed from the libraries, see the [TensorFlow Support](#tensorflow-support) section for details.
@@ -19,17 +21,18 @@ Download
 --------
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/esri/deep-learning-frameworks/total?style=for-the-badge)
+  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.7](https://links.esri.com/pro-deep-learning-libraries/37)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.6](https://links.esri.com/pro-deep-learning-libraries/36)**
-  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.5](https://links.esri.com/pro-deep-learning-libraries/35)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 12.0](https://links.esri.com/server-win-deep-learning-libraries/120)**
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 12.0](https://links.esri.com/server-linux-deep-learning-libraries/120)**
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.5](https://links.esri.com/allsource-deep-learning-libraries/15)**
-  - **[Deep Learning Libraries Installer for ArcGIS Drone2Map 2025.2](https://links.esri.com/drone2map-deep-learning-libraries/20252)**
+  - **[Deep Learning Libraries Installer for ArcGIS Drone2Map 2026.1](https://links.esri.com/drone2map-deep-learning-libraries/20261)**
   - **[Deep Learning Libraries Installer for ArcGIS Reality Studio 2025.2](https://links.esri.com/realitystudio-deep-learning-libraries/20252)**
 
 <details>
   <summary><b>Downloads for Previous Releases</b></summary>
 
+  - **[Deep Learning Libraries Installer for ArcGIS Pro 3.5](https://links.esri.com/pro-deep-learning-libraries/35)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.4](https://links.esri.com/pro-deep-learning-libraries/34)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.3](https://links.esri.com/pro-deep-learning-libraries/33)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 3.2](https://links.esri.com/pro-deep-learning-libraries/32)**
@@ -40,6 +43,8 @@ Download
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.8](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.8/ArcGIS_Pro_28_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.7](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.7/ArcGIS_Pro_27_Deep_Learning_Libraries.zip)**
   - **[Deep Learning Libraries Installer for ArcGIS Pro 2.6](https://github.com/Esri/deep-learning-frameworks/releases/download/pro-2.6/ArcGIS_Pro_26_Deep_Learning_Libraries.zip)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server 12.0](https://links.esri.com/server-win-deep-learning-libraries/120)**
+  - **[Deep Learning Libraries Installer for ArcGIS Server Linux 12.0](https://links.esri.com/server-linux-deep-learning-libraries/120)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 11.5](https://links.esri.com/server-win-deep-learning-libraries/115)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 11.4](https://links.esri.com/server-win-deep-learning-libraries/114)**
   - **[Deep Learning Libraries Installer for ArcGIS Server 11.3](https://links.esri.com/server-win-deep-learning-libraries/113)**
@@ -63,6 +68,7 @@ Download
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.2](https://links.esri.com/allsource-deep-learning-libraries/12)**
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.1](https://links.esri.com/allsource-deep-learning-libraries/11)**
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.0](https://links.esri.com/allsource-deep-learning-libraries/10)**
+  - **[Deep Learning Libraries Installer for ArcGIS Drone2Map 2025.2](https://links.esri.com/drone2map-deep-learning-libraries/20252)**
 </details>
 
 Installation
@@ -91,7 +97,6 @@ After these steps, you should have a clean Pro installation with the Deep Learni
 **Manual Installation:**
 <details>
   <summary>You can install the libraries manually using these archived instructions:</summary>
-
   - **[Pro 2.8 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-8.pdf)**
   - **[Pro 2.7 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-7.pdf)**
   - **[Pro 2.6 Manual Installation Instructions](include/install-deep-learning-frameworks-manually-2-6.pdf)**
@@ -99,7 +104,6 @@ After these steps, you should have a clean Pro installation with the Deep Learni
 
 Developer install steps
 --------
-
 
 :warning: | Following these steps will install an uncertified package set
 :---:|:---
