@@ -11,7 +11,7 @@ This installer adds all the included packages to the default [`arcgispro-py3` en
 For an example of the kinds of workflows this installer and ArcGIS enables, see the [AI & Deep Learning in the UC 2020 Plenary video](https://www.youtube.com/watch?v=eI5Sv_FsPgk&feature=youtu.be&list=PLaPDDLTCmy4YwK56yHaEdtRgNUoPBiZTz)
 
 > [!IMPORTANT]
-> Pro 3.7, Enterprise 12.1 and their companion products are the last versions which support Maxwell, Pascal and Volta GPUs. NVIDIA is no longer providing active support for these GPUs which are from 2016 or earlier. See [NVIDIA's documentation on the support lifecycle for these cards](https://nvidia.custhelp.com/app/answers/detail/a_id/5676/~/support-plan-for-maxwell%2C-pascal%2C-and-volta-series-geforce-gpus.) for information on affected GPUs. <br /> Ensure compatibility by matching the versions of Deep Learning Libraries and ArcGIS software. To upgrade from a previous version, begin by uninstalling both Deep Learning Libraries and your ArcGIS software, following the instructions provided below.
+> Pro 3.7, Enterprise 12.1 and their companion products are the last versions which support Maxwell, Pascal and Volta GPUs. NVIDIA is no longer providing active support for these GPUs which are from 2016 or earlier. See [NVIDIA's documentation on the support lifecycle for these cards](https://nvidia.custhelp.com/app/answers/detail/a_id/5676/~/support-plan-for-maxwell%2C-pascal%2C-and-volta-series-geforce-gpus.) for information on affected GPUs. <br><br> Ensure compatibility by matching the versions of Deep Learning Libraries and ArcGIS software. To upgrade from a previous version, begin by uninstalling both Deep Learning Libraries and your ArcGIS software, following the instructions provided below.
 
 Download
 --------
