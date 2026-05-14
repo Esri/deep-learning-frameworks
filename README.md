@@ -12,10 +12,8 @@ For an example of the kinds of workflows this installer and ArcGIS enables, see 
 
 > [!IMPORTANT]
 > Pro 3.7, Enterprise 12.1 and their companion product releases are the last versions of this installer which support Maxwell, Pascal and Volta GPUs. NVIDIA is no longer providing ongoing active support for these GPUs which are from 2016 or earlier, which include the GTX 9 and GTX 10 series GPUs. See [NVIDIA's documentation on the support lifecycle for these cards](https://nvidia.custhelp.com/app/answers/detail/a_id/5676/~/support-plan-for-maxwell%2C-pascal%2C-and-volta-series-geforce-gpus.).
->
+> [!IMPORTANT]
 > Ensure compatibility by matching the versions of Deep Learning Libraries and ArcGIS software. To upgrade from a previous version, begin by uninstalling both Deep Learning Libraries and your ArcGIS software, following the instructions provided below.
->
-> TensorFlow has been removed from the libraries, see the [TensorFlow Support](#tensorflow-support) section for details.
 
 Download
 --------
