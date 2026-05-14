@@ -1774,12 +1774,13 @@ TensorFlow Support
 ------------------
 
 > [!IMPORTANT]
->
-> As of Pro 3.6, TensorFlow and its related packages have been removed from this distribution. Over time, TensorFlow has reduced its support for the platforms ArcGIS is used on. Native CUDA support for Windows was removed in 2022 at the TensorFlow 2.11 release, and in 2025 it took eleven months for a Python 3.13 compatible version to be released.
->
-> As a result, we recommend migrating any TensorFlow dependent code to PyTorch to remain in sync with the shifting deep learning landscape.
->
-> If you remain on older versions of the software, the Pro 3.3-3.5 package set includes a CPU-only build of TensorFlow 2.13. TensorFlow 2.10 was the [last TensorFlow release](https://www.tensorflow.org/install/pip#windows-native) that includes native Windows GPU support.  If you have performance dependent code in TensorFlow not easily migrated, Pro 3.2 and earlier have GPU accelerated versions of TensorFlow.
+> As of Pro 3.6, TensorFlow and its related packages have been removed from this distribution.
+
+Over time, TensorFlow has reduced its support for the platforms ArcGIS is used on. Native CUDA support for Windows was removed in 2022 at the TensorFlow 2.11 release, and in 2025 it took eleven months for a Python 3.13 compatible version to be released.
+
+As a result, we recommend migrating any TensorFlow dependent code to PyTorch to remain in sync with the shifting deep learning landscape.
+
+If you remain on older versions of the software, the Pro 3.3-3.5 package set includes a CPU-only build of TensorFlow 2.13. TensorFlow 2.10 was the [last TensorFlow release](https://www.tensorflow.org/install/pip#windows-native) that includes native Windows GPU support.  If you have performance dependent code in TensorFlow not easily migrated, Pro 3.2 and earlier have GPU accelerated versions of TensorFlow.
 
 The removal of TensorFlow also removed these related packages:
 
