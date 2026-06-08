@@ -23,8 +23,8 @@ Download
   - **[Deep Learning Libraries Installer for ArcGIS Server Linux 12.1](https://links.esri.com/server-linux-deep-learning-libraries/121)**
   - **[Deep Learning Libraries Installer for ArcGIS AllSource 1.6](https://links.esri.com/allsource-deep-learning-libraries/16)**
   - **[Deep Learning Libraries Installer for ArcGIS Drone2Map 2026.1](https://links.esri.com/drone2map-deep-learning-libraries/20261)**
-  - **[Deep Learning Libraries Installer for ArcGIS Reality Studio 2026.1](https://links.esri.com/realitystudio-windows-deep-learning-libraries/20261)
-  - **[Deep Learning Libraries Installer for ArcGIS Reality Studio Linux 2026.1](https://links.esri.com/realitystudio-linux-deep-learning-libraries/20261)
+  - **[Deep Learning Libraries Installer for ArcGIS Reality Studio 2026.1](https://links.esri.com/realitystudio-windows-deep-learning-libraries/20261)**
+  - **[Deep Learning Libraries Installer for ArcGIS Reality Studio Linux 2026.1](https://links.esri.com/realitystudio-linux-deep-learning-libraries/20261)**
 
 <details>
   <summary><b>Downloads for Previous Releases</b></summary>
