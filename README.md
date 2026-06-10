@@ -121,7 +121,7 @@ Developer install steps
     - When the cloned enviornment is activated, the new environment name appears at the beginning of the path:
     > `(your-clone-name) C:\Program Files\ArcGIS\Pro\bin\Python\envs>`
 4. If on a machine with an NVIDIA GPU, skip to step 5. If installing on a machine without a physical NVIDIA GPU to run the tools via CPU, run:
-   > `set CONDA_OVERRIDE_CUDA=12.6`
+   > `set CONDA_OVERRIDE_CUDA=12.9`
     - This informs conda that you don't have an appropriate GPU which would otherwise prevent installation of GPU requiring components.
 5. Install the deep learning essentials libraries into your cloned environment with:
     > `conda install deep-learning-essentials`
@@ -172,8 +172,8 @@ Most of the packages included in the Deep Learning Libraries installer will work
 
  GPU requirement | Supported
  -----|---------------------
- GPU Type | NVIDIA with CUDA Compute Capability 5.0 minimum, 6.1 or later recommended. See the list of [CUDA-enabled cards](https://developer.nvidia.com/cuda-gpus) to determine the compute capability of a GPU.
-GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; version 528.33 or higher is required.
+ GPU Type | NVIDIA with CUDA Compute Capability 5.0 minimum, 7.5 or later recommended. See the list of [CUDA-enabled cards](https://developer.nvidia.com/cuda-gpus) to determine the compute capability of a GPU.
+GPU driver | [NVIDIA GPU drivers](https://www.nvidia.com/drivers) &mdash; version 551.61 or higher is required.
  Dedicated graphics memory <sup>&dagger;</sup> | minimum: 4GB <br />recommended: 8GB or more, depending on the deep learning model architecture and the batch size being used
 
 &dagger; GPU memory, unlike system memory, cannot be accessed 'virtually'. If a model training consumes more GPU memory than you have available, it will fail. GPU memory is also shared across all uses of the machine, so open Pro projects with maps and other applications can limit the available memory for use with these tools.
