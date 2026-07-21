@@ -529,6 +529,7 @@ _py-xgboost-mutex | 2.0 | Metapackage for selecting the desired implementation o
 
 <details>
   <summary><b>Manifest for Pro 3.6 / Server 12.1</b></summary>
+
 Library Name | Version | Description
 -------------|---------|------------
 [absl-py](https://abseil.io/) | 2.1.0 | Abseil Python Common Libraries
