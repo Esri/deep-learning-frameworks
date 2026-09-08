@@ -140,8 +140,8 @@ Backbones packages | Pro versions | Server versions |
 -| -| -|
 [ArcGIS Deep Learning Backbones package](https://arcgis.com/home/item.html?id=e6b3828acfe44089a095a559a33c513a) | 2.5&mdash;2.8 | 10.7.1&mdash;10.9.0 
 [ArcGIS Deep Learning Backbones package](https://arcgis.com/home/item.html?id=3b4474a3968f45d78bc29009c8c99b1a) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS OpenMMLab Deep Learning Backbones package](https://arcgis.com/home/item.html?id=3b4474a3968f45d78bc29009c8c99b1a) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS Text Deep Learning Backbones package](https://arcgis.com/home/item.html?id=3b4474a3968f45d78bc29009c8c99b1a) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
+[ArcGIS OpenMMLab Deep Learning Backbones package](https://arcgis.com/home/item.html?id=55a0d156e5864acabfa5775284595c96) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
+[ArcGIS Text Deep Learning Backbones package](https://arcgis.com/home/item.html?id=5c78202ab6c049cdb6d7ccf6193a35cf) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
 [ArcGIS Timm Deep Learning Backbones Part 1 v1.0.0 package](https://arcgis.com/home/item.html?id=bd6bd2ee881d4f4c97326c58cb4ae555) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
 [ArcGIS Timm Deep Learning Backbones Part 2 v1.0.0 package](https://arcgis.com/home/item.html?id=dfad9611d68246fd98c7a62fe1eda175) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
 [ArcGIS Timm Deep Learning Backbones Part 3 v1.0.0 package](https://arcgis.com/home/item.html?id=6a121cae954f43d99b2e2fbbb85612ff) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
