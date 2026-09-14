@@ -139,16 +139,16 @@ If you will be working in a disconnected environment, download the required meta
 Backbones packages | Pro versions | Server versions |
 -| -| -|
 [ArcGIS Deep Learning Backbones package](https://arcgis.com/home/item.html?id=e6b3828acfe44089a095a559a33c513a) | 2.5&mdash;2.8 | 10.7.1&mdash;10.9.0 
-[ArcGIS Deep Learning Backbones package](https://arcgis.com/home/item.html?id=3b4474a3968f45d78bc29009c8c99b1a) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS OpenMMLab Deep Learning Backbones package](https://arcgis.com/home/item.html?id=55a0d156e5864acabfa5775284595c96) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS Text Deep Learning Backbones package](https://arcgis.com/home/item.html?id=5c78202ab6c049cdb6d7ccf6193a35cf) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS Timm Deep Learning Backbones Part 1 v1.0.0 package](https://arcgis.com/home/item.html?id=bd6bd2ee881d4f4c97326c58cb4ae555) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS Timm Deep Learning Backbones Part 2 v1.0.0 package](https://arcgis.com/home/item.html?id=dfad9611d68246fd98c7a62fe1eda175) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS Timm Deep Learning Backbones Part 3 v1.0.0 package](https://arcgis.com/home/item.html?id=6a121cae954f43d99b2e2fbbb85612ff) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS Timm Deep Learning Backbones Part 4 v1.0.0 package](https://arcgis.com/home/item.html?id=8005579c16cf40d980c5fe8cdd345f50) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS SAM Backbones 1.0.0 package](https://arcgis.com/home/item.html?id=cb0a7405cd5049deb27fd6575bf2e30f) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS Mistral Backbone package](https://arcgis.com/home/item.html?id=d746d13c2a05444d95bf89d8e5de19e9) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2 
-[ArcGIS Polygon Segmentation Postprocessing Backbone package](https://arcgis.com/home/item.html?id=a54caf6d89c441078e01255bdf599c17) | 2.9&mdash;3.4 | 10.9.1&mdash;12.2
+[ArcGIS Deep Learning Backbones package](https://arcgis.com/home/item.html?id=3b4474a3968f45d78bc29009c8c99b1a) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2 
+[ArcGIS OpenMMLab Deep Learning Backbones package](https://arcgis.com/home/item.html?id=55a0d156e5864acabfa5775284595c96) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2 
+[ArcGIS Text Deep Learning Backbones package](https://arcgis.com/home/item.html?id=5c78202ab6c049cdb6d7ccf6193a35cf) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2 
+[ArcGIS Timm Deep Learning Backbones Part 1 v1.0.0 package](https://arcgis.com/home/item.html?id=bd6bd2ee881d4f4c97326c58cb4ae555) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2 
+[ArcGIS Timm Deep Learning Backbones Part 2 v1.0.0 package](https://arcgis.com/home/item.html?id=dfad9611d68246fd98c7a62fe1eda175) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2 
+[ArcGIS Timm Deep Learning Backbones Part 3 v1.0.0 package](https://arcgis.com/home/item.html?id=6a121cae954f43d99b2e2fbbb85612ff) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2 
+[ArcGIS Timm Deep Learning Backbones Part 4 v1.0.0 package](https://arcgis.com/home/item.html?id=8005579c16cf40d980c5fe8cdd345f50) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2 
+[ArcGIS SAM Backbones 1.0.0 package](https://arcgis.com/home/item.html?id=cb0a7405cd5049deb27fd6575bf2e30f) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2 
+[ArcGIS Mistral Backbone package](https://arcgis.com/home/item.html?id=d746d13c2a05444d95bf89d8e5de19e9) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2 
+[ArcGIS Polygon Segmentation Postprocessing Backbone package](https://arcgis.com/home/item.html?id=a54caf6d89c441078e01255bdf599c17) | 2.9&mdash;3.7 | 10.9.1&mdash;12.2
 
 Next Steps
 ----------
