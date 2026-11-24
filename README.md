@@ -1,5 +1,8 @@
 # Deep Learning Libraries Installers for ArcGIS
 
+> [!WARNING]
+> Pro 3.8 deep learning installers will be made available on December 1st, 2026, follow https://github.com/Esri/deep-learning-frameworks/issues/132 to track the resolution of this issue.
+
 <div align="center">
   <img src="include/included-frameworks.png" />
 </div>
